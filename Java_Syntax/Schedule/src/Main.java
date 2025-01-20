@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /** TODO 1 Solution End: Import the Scanner **/
-public class Schedule {
+public class Main {
     public static void main(String []args) {
 
         /** TODO 2 Solution Start: Create a Scanner variable named "keyboard" **/
