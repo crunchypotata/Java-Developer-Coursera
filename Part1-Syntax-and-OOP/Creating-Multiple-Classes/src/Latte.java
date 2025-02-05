@@ -4,9 +4,6 @@ public class Latte extends Coffee{
 
     public Latte(String name, String roast, double price, String milkType, String syrupFlavor) {
         super(name, roast, price);
-        this.name = name;
-        this.roast = roast;
-        this.price = price;
         this.milkType = milkType;
         this.syrupFlavor = syrupFlavor;
     }

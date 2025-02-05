@@ -3,9 +3,6 @@ public class Espresso extends Coffee{
 
     public Espresso(String name, String roast, double price, int numberOfShots) {
         super(name, roast, price);
-        this.name = name;
-        this.roast = roast;
-        this.price = price;
         this.numberOfShots = numberOfShots;
         }
     public void printEspressoDetails() {
