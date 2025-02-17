@@ -1,5 +1,7 @@
 <h2> Amazon Junior Software Developer Professional Certificate </h2>
 
+<p> The code assignments I'm working on during the course </p>
+
 <p> This course include 7 part of studing: </p>
 
 <ul> 
