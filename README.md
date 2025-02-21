@@ -5,7 +5,7 @@
 <p> This course include 7 part of studing: </p>
 
 <ul> 
-  <li> Introduction to Sofware Development - Java syntax and OOP </li>
+  <li> ✅ Introduction to Sofware Development - Java syntax and OOP </li>
   <li> Programming with Java - Advanced OOP, error handling </li>
   <li> Data Structures and Algorithms </li>
   <li> Database Management with Java and SQL </li>
@@ -15,4 +15,10 @@
 
 </ul>
 
-<p> Each part of this course consists several practice code assignment for different topics </p>
+<h4> Topics covered </h4>
+<ul>
+  <li> Java syntax: If-else statement, switch case, while-do-for loop, arrays, methods </li>
+  <li> OOP: Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism </li>
+
+</ul>
+
