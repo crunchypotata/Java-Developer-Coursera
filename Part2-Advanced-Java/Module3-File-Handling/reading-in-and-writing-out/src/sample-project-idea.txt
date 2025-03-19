@@ -1,0 +1,5 @@
+Idea 1: Create an application to track personal expenses.
+
+This application will let a user register, log in, and create a persona for themselves.
+The application will ask the user to enter a transaction they have done, and store it in a file or a database.
+The application must also provide a report of some sort to the user to visualize their expenses so far.
