@@ -6,7 +6,7 @@
 
 <ul> 
   <li> ✅ Introduction to Sofware Development - Java syntax and OOP </li>
-  <li> Programming with Java - Advanced OOP, error handling </li>
+  <li> ✅ Programming with Java - Advanced OOP, error handling, I/O streams </li>
   <li> Data Structures and Algorithms </li>
   <li> Database Management with Java and SQL </li>
   <li> Full Stack Web Development </li>
@@ -19,7 +19,7 @@
 <ul>
   <li> Java syntax: If-else statement, switch case, while-do-for loop, arrays, methods </li>
   <li> OOP: Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition </li>
-  <li> Handling Error, I/O streams </li>
+  <li> Handling Error, I/O streams, Serialization, Deserilization </li>
 
 </ul>
 
