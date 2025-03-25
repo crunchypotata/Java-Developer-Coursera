@@ -1,6 +1,6 @@
 <h2> Amazon Junior Software Developer Professional Certificate </h2>
 
-<p><b> My practical code assignments I'm working on during the course </b></p>
+<p> My practical code assignments I'm working on during the course </p>
 
 <h3> This course include 7 part of studing: </h3>
 
@@ -15,7 +15,7 @@
 
 </ul>
 
-<h4> Topics covered </h4>
+<h3> Topics learned </h3>
 <ul>
   <li> Java syntax: If-else statement, switch case, while-do-for loop, arrays, methods </li>
   <li> OOP: Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition </li>
