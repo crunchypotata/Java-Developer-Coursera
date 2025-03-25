@@ -1,8 +1,8 @@
 <h2> Amazon Junior Software Developer Professional Certificate </h2>
 
-<p><b> My code assignments I'm working on during the course </b></p>
+<p><b> My practical code assignments I'm working on during the course </b></p>
 
-<p> This course include 7 part of studing: </p>
+<h3> This course include 7 part of studing: </h3>
 
 <ul> 
   <li> ✅ Introduction to Sofware Development - Java syntax and OOP </li>
