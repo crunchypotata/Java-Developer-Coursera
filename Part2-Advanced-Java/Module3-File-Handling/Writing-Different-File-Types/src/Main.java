@@ -23,56 +23,56 @@ public class Main {
         } catch (IOException ioException) {
             System.err.println(ioException.getMessage());
         }
+    }
 
 //TODO 6: Define printWrite() method, a static method that doesn’t return any data.
-        public static void printWrite() {
+    public static void printWrite() {
 
 //TODO 7: Take inputs from the user with Scanner class, for name, age and weight.
 //  Instantiate Person object with the inputs
-            Scanner keyboard = new Scanner(System.in);
-            System.out.println("Enter your name: ");
-            String name = keyboard.nextLine();
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name = keyboard.nextLine();
 
-            System.out.println("Enter your age: ");
-            int age = keyboard.nextInt();
+        System.out.println("Enter your age: ");
+        int age = keyboard.nextInt();
 
-            System.out.println("Enter your weight: ");
-            double weight = keyboard.nextDouble();
+        System.out.println("Enter your weight: ");
+        double weight = keyboard.nextDouble();
 
-            keyboard.close();
 
 //TODO 8: Declare object of PrintWriter class, which refers to file2.txt file in the current folder.
-            Person person = new Person(name, age, weight);
+        Person person = new Person(name, age, weight);
 //   Call its println() method, to write the object string returned by toString() method
-            try (PrintWriter printWriter = new PrintWriter("file2.txt")) {
+        try (PrintWriter printWriter = new PrintWriter("file2.txt")) {
 //TODO 9: Put the code in try catch block for IOException
-                printWriter.println(person);
-                System.out.println("Data written to file2.txt successfully!");
-            } catch (IOException e) {
-                System.out.println("Exception: " + e.getMessage());
-            }
-
+            printWriter.println(person);
+            System.out.println("Data written to file2.txt successfully!");
+        } catch (IOException e) {
+            System.out.println("Exception: " + e.getMessage());
         }
+
+    }
 
 
 //TODO 10: Declare a byte array to store a list of numbers.
-        public static void byteArrayWrite() {
-            byte[] numbers = {10, 20, 30, 40, 50};
+    public static void byteArrayWrite() {
+        byte[] numbers = {10, 20, 30, 40, 50};
 
 //TODO 11: Open a FileOutputStream object, pointing towards file3.txt file
-            try (FileOutputStream outputStream = new FileOutputStream("file3.txt")) {
+        try (FileOutputStream outputStream = new FileOutputStream("file3.txt")) {
 
 //TODO 12: call the write() method of FileOutputStream object to print each element in the array.
 // Use for loop for the purpose
 //TODO 13: Place all the file activity inside the try-catch block.
-                for (byte number : numbers) {
-                    outputStream.write(number);
-                }
-                System.out.println("Data written to file3.txt successfully!");
-            } catch (IOException e) {
-                e.getStackTrace();
+            for (byte number : numbers) {
+                outputStream.write(number);
             }
+            System.out.println("Data written to file3.txt successfully!");
+        } catch (IOException e) {
+            e.getStackTrace();
         }
+    }
 
 //TODO 14: Declare an object of DataOutputStream class.
 // Use object of FileOutputStream class as argument to its constructor.
@@ -109,9 +109,9 @@ public class Main {
             System.err.println("Error writing to file4.dat: " + e.getMessage());
         }
     }
-}
 
-    public static void main(String[] args) throws Exception{
+
+    public static void main(String[] args) throws Exception {
 //TODO 18: call the static methods from main() method
         textFileWrite();
         printWrite();

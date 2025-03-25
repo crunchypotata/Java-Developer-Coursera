@@ -13,6 +13,19 @@ public class Person {
     }
     public String toString() {
         //TODO 3: use the String.format() method to return string representation of the objectp
-        return System.out.println("Hello, my name is " + name + " and my age is " + age + ".");
+        return String.format("Name: %s Age: %s Weight: %s", this.name, this.age, this.weight);
     }
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
 }
+
