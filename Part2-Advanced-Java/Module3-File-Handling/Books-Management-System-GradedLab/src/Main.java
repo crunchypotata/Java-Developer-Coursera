@@ -18,45 +18,44 @@ public class Main {
         }
 
 
-//      Task 1 testing
-//        String directoryPath = "./myBooks";
-        DirectoryManager.listFilesAndDirectories(directoryPath);
+////      Task 1 testing
+////        String directoryPath = "./myBooks";
+//        DirectoryManager.listFilesAndDirectories(directoryPath);
 
 
 //       Task 2 testing
 
-        String backupDirectoryPath = "./myBooksBackup";
-        DirectoryManager.createDirectory(directoryPath);
+//        String backupDirectoryPath = "./myBooksBackup";
+//        DirectoryManager.createDirectory(directoryPath);
 
 
 //     Task 3 testing
 
-//        String directoryPath = "./myBooksBackup";
-        String newDirectoryPath = "./BooksBackupDirectory";
-        DirectoryManager.renameDirectory(directoryPath, newDirectoryPath);
+
+//        String newDirectoryPath = "./BooksBackupDirectory";
+//        DirectoryManager.renameDirectory(directoryPath, newDirectoryPath);
 
 
 //      Task 4 testing
-
-        String srcPath = "./myBooks";
-        String destPath = "./BooksBackupDirectory";
-        DirectoryManager.copyFiles(srcPath, destPath);
-
+//
+//        String srcPath = "./myBooks";
+//        String destPath = "./BooksBackupDirectory";
+//        DirectoryManager.copyFiles(srcPath, destPath);
+//
 
 //     Task 5 testing
 
-        String filePath = "./myBooks/1984.txt";
-        DirectoryManager.deleteFile(filePath);
+//        String filePath = "./myBooks/1984.txt";
+//        DirectoryManager.deleteFile(filePath);
 
 
 //     Task 6 testing
 
         Book book = new Book("1984", "George Orwell", "978-0451524935");
-        String serializationFilePath = "./myBooks/book.ser";
+        String filePath = "./myBooks/book.ser";
         Book.serializeBook(book, filePath);
         Book deserializedBook = Book.deserializeBook(filePath);
         System.out.println("Deserialized Book: " + deserializedBook);
-
 
     }
 

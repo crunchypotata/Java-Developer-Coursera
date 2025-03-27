@@ -55,7 +55,7 @@ public class Book implements Serializable {
             // TODO 7e: read the object from the file and cast it to a Book object
             book = (Book) in.readObject();
             // TODO 7f: Print a message indicating that the book data was deserialized
-            System.out.println("Error loading settings");
+            System.out.println("Deserialized book data from " + filePath);
         }
         catch (IOException | ClassNotFoundException e) {
             // TODO 7g: Catch the IOException and ClassNotFoundException and print the stack trace

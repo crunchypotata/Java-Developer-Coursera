@@ -54,10 +54,6 @@ public class DirectoryManager {
 
         // TODO 3c: Check if the new directory already exists using the exists() method from the File class
 
-        if (!oldDir.exists()) {
-            System.out.println("Source directory does not exist");
-            return;
-        }
 
         if (newDir.exists()) {
             System.out.println("Target directory already exists");
@@ -65,58 +61,40 @@ public class DirectoryManager {
         }
 
         // TODO 3d: Use the renameTo() method from the File class to rename the old directory to the new directory
-        if (oldDir.renameTo(newDir)) {
-            System.out.println("Renaming succeeded.");
+        if (!oldDir.renameTo(newDir)) {
+            System.out.println("Renaming failed.");
         } else {
-            System.out.println("Renaming failed. Trying manual move...");
+            System.out.println("Renaming succeeded.");
 
             copyFiles(currentDirectory, newDirectory);
-            deleteDirectory(oldDir);
         }
     }
 
-    private static void deleteDirectory(File dir) {
-        if (dir.isDirectory()) {
-            for (File file : dir.listFiles()) {
-                deleteDirectory(file);
-            }
-        }
-        dir.delete();
-    }
 
     // TODO 4a: Define a static void method called copyFiles with two parameters sourceDir and destDir of type String
     public static void copyFiles(String sourceDir, String destDir) {
         // TODO 4b: create Path objects for the sourceDir and destDir using the Paths.get() method
-        Path source = Paths.get(sourceDir);
-        Path target = Paths.get(destDir);
-
         // TODO 4c: Write a try-catch block to handle IOException because creating a new directory and copying files can throw an IOException
         try {
+            Path sourcePath = Paths.get(sourceDir);
+            Path destPath = Paths.get(destDir);
+
             // TODO 4d: Check if the destination directory exists using the exists() method from the Files class
-            if (!Files.exists(target)) {
-                // If the destination directory does not exist, create the directory using the createDirectories() method from the Files class
-                Files.createDirectories(target);
+            if (!Files.exists(destPath)) {
+                Files.createDirectories(destPath);
             }
 
             // TODO 4e: Iterate through the files in the source directory using a loop
-            File sourceDirectory = new File(sourceDir);
-            File[] files = sourceDirectory.listFiles();
-            // For each file, create a Path object using the file's name and the destDir
-            if (files != null) {
-                for (File file : files) {
-                    if (file.isFile()) {
-                        // Use the copy() method from the Files class to copy the file to the destination directory
-                        Path sourcePath = file.toPath();
-                        Path targetPath = target.resolve(file.getName());
-                        Files.copy(sourcePath, targetPath, StandardCopyOption.REPLACE_EXISTING);
-                    }
-                }
+            DirectoryStream<Path> directoryStream = Files.newDirectoryStream(sourcePath);
+            for (Path sourceFilePath : directoryStream) {
+                Path destFilePath = destPath.resolve(sourceFilePath.getFileName());
+
+                // Copy the file to the destination directory
+                Files.copy(sourceFilePath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
             }
-                // Print a message indicating that the file was copied
-            System.out.println("All files copied successfully.");
-        }
-        catch(IOException e){
-            System.out.println(e.getMessage());
+
+        } catch(IOException e){
+            e.printStackTrace();
         }
     }
 
@@ -128,7 +106,7 @@ public class DirectoryManager {
         // TODO 5c: Attempt to delete the file using the delete() method from the File class
         if (file.delete()) {
             // If the file is deleted successfully, print a message indicating the same
-            System.out.println("The file has deleted sussessfully");
+            System.out.println("The file has deleted successfully");
 
         } else {
             // If the file deletion fails, print an error message
