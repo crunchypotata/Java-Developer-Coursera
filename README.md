@@ -1,6 +1,6 @@
 <h2> Amazon Junior Software Developer Professional Certificate </h2>
 
-<p> My practical code assignments I'm working on during the certification. 
+<p> My practical code assignments I'm working on during the certification. <br/>  
 You can check the final labs of each course, because they provide more comprehansive examples of my code </p>
 
 <h3> This course include 7 part of studying: </h3>
@@ -8,7 +8,7 @@ You can check the final labs of each course, because they provide more comprehan
 <ul> 
   <li> ✅ Introduction to Sofware Development - Java syntax and OOP </li>
   <li> ✅ Programming with Java - Advanced OOP, error handling, I/O streams </li>
-  <li> Data Structures and Algorithms - I'am here right now </li> 
+  <li> Data Structures and Algorithms - I'm here right now </li> 
   <li> Database Management with Java and SQL </li>
   <li> Full Stack Web Development </li>
   <li> Generative AI in Software Development </li>
