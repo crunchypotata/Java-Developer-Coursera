@@ -8,7 +8,7 @@ You can check the final labs of each course, because they provide more comprehan
 <ul> 
   <li> ✅ Introduction to Sofware Development - Java syntax and OOP </li>
   <li> ✅ Programming with Java - Advanced OOP, error handling, I/O streams </li>
-  <li> Data Structures and Algorithms - I'm here right now </li> 
+  <li> Data Structures and Algorithms - I'm here </li> 
   <li> Database Management with Java and SQL </li>
   <li> Full Stack Web Development </li>
   <li> Generative AI in Software Development </li>
@@ -18,9 +18,10 @@ You can check the final labs of each course, because they provide more comprehan
 
 <h3> Topics learned </h3>
 <ul>
-  <li> Java syntax: If-else statement, switch case, while-do-for loop, arrays, methods </li>
-  <li> OOP: Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition </li>
-  <li> Handling Error, I/O streams, Serialization, Deserilization </li>
+  <li><b> Java syntax:</b> If-else statement, switch case, while-do-for loop, arrays, methods </li>
+  <li><b> OOP:</b>  Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition </li>
+  <li><b> File handling:</b> Handling Errors, I/O streams, Serialization, Deserilization </li>
+  <li><b> Algorithms:</b> LinkedLists, HashMap, TreeMap, Binary Search, Quick Sort, Merge Sort, Babble Sort
 
 </ul>
 
