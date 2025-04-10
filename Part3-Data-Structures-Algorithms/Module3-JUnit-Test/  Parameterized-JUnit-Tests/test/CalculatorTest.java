@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -133,6 +134,14 @@ public class CalculatorTest {
      *          ArithmeticException is thrown
      **/
 
+    @DisplayName("Test square of a number with invalid values has exception")
+    @ParameterizedTest
+    @ValueSource(ints = {Integer.MAX_VALUE, Integer.MIN_VALUE})
+    void testSquareOfSingleIntegerNumberOutsideIntegerRangeHasException(int numberPassed) {
+        assertThrows(ArithmeticException.class, () -> {
+            calculatorTestObject.squareOfSingleIntegerNumber(numberPassed);
+        });
+    }
 
    /** TODO 15: copy the test method
     * "testSquareOfSingleIntegerNumberOutsideIntegerRangeHasException()"
@@ -140,6 +149,7 @@ public class CalculatorTest {
     *   below
     *   and paste here below TODO 16
     **/
+
 
    /** TODO 16: for the method
     *     "testSquareOfSingleIntegerNumberOutsideIntegerRangeHasException()"
@@ -149,6 +159,16 @@ public class CalculatorTest {
     *     is a parameterized test.
     **/
 
+   @DisplayName("Test square of a number with valid values but changed actual is not equal")
+   @ParameterizedTest
+   @ValueSource(ints = {2, 45, 66, 77})
+   void testSquareOfSingleIntegerNumberInRangeDeviatesResult(int numberPassed) {
+       int expectedResult = numberPassed * numberPassed ;
+       int actualResult =  calculatorTestObject.squareOfSingleIntegerNumber(numberPassed) + 1;
+
+       assertNotEquals(expectedResult, actualResult);
+   }
+
    /** TODO 17: copy the code for TODO 17
     *           from the code snippets below
     *           to below TODO 18
@@ -156,11 +176,28 @@ public class CalculatorTest {
     *           "testDivideTwoIntegerNumbersWithinRangeReturnsSuccesss()"
     **/
 
+
    /** TODO 18:  for the test method
     * "testDivideTwoIntegerNumbersWithinRangeReturnsSuccesss()"
     *   which you created in TODO 17
     *   put parameterized values using @CsvSource() annotation
     **/
+
+   @DisplayName("Test division of int within range returns success")
+   @ParameterizedTest
+   @CsvSource(
+           {
+                   "6, 3, 2",
+                   "12, 5, 2",
+                   "15, 3, 5"
+           }
+   )
+   void testDivideTwoIntegerNumbersWithinRangeReturnsSuccesss(int number1, int number2, int expectedResult) {
+       int actualResult =  calculatorTestObject.divideTwoIntegerNumbers(number1,number2);
+
+       assertEquals(expectedResult, actualResult);
+
+   }
 
 
 }
