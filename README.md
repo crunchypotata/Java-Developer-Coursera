@@ -22,6 +22,6 @@ You can check the final labs of each course, because they provide more comprehan
   <li><b> OOP:</b>  Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition </li>
   <li><b> File handling:</b> Handling Errors, I/O streams, Serialization, Deserilization </li>
   <li><b> Algorithms:</b> LinkedLists, HashMap, TreeMap, Binary Search, Quick Sort, Merge Sort, Babble Sort
-
+  <li><b> Basic Testing: Writing of JUnit tests </b>
 </ul>
 
