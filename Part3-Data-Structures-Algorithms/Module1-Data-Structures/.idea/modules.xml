@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array-Add-Remove-Update/Array-Add-Remove-Update.iml" filepath="$PROJECT_DIR$/Array-Add-Remove-Update/Array-Add-Remove-Update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList-Add-Remove-Update-Items/ArrayList-Add-Remove-Update-Items.iml" filepath="$PROJECT_DIR$/ArrayList-Add-Remove-Update-Items/ArrayList-Add-Remove-Update-Items.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Booking-Seats-In-Cinema-ArrayList-Practicing/Booking-Seats-In-Cinema-ArrayList-Practicing.iml" filepath="$PROJECT_DIR$/Booking-Seats-In-Cinema-ArrayList-Practicing/Booking-Seats-In-Cinema-ArrayList-Practicing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Declaring_Arrays/Declaring_Arrays.iml" filepath="$PROJECT_DIR$/Declaring_Arrays/Declaring_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module1-Data-Structures.iml" filepath="$PROJECT_DIR$/.idea/Module1-Data-Structures.iml" />
+    </modules>
+  </component>
+</project>
