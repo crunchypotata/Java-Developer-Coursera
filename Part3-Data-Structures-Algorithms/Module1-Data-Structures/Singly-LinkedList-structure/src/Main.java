@@ -18,5 +18,10 @@ public class Main {
 
         waitlist.addCustomer("Mikkey", "Party for 5");
         waitlist.printList();
+
+        waitlist.reverseList();
+        waitlist.printList();
+
     }
+
 }

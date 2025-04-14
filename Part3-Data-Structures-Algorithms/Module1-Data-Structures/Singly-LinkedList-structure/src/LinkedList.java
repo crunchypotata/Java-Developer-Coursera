@@ -34,7 +34,8 @@ public class LinkedList {
 
     // Method to remove a specific customer from the linkedlist
     void removeCustomer(String customerName) {
-        if (head == null) return; // If the waitlist is empty, there's nothing to remove
+        if (head == null)
+            return; // If the waitlist is empty, there's nothing to remove
         // If the customer to remove is at the head of the list
         if (head.name.equals(customerName)) {
             head = head.next; // Move the head to the next customer
@@ -70,4 +71,16 @@ public class LinkedList {
         System.out.println(" ");
     }
 
+    void reverseList() {
+        Node prev = null;
+        Node current = head;
+
+        while (current != null) {
+            Node nextNode = current.next;
+            current.next = prev;
+            prev = current;
+            current = nextNode;
+        }
+        head = prev;
+    }
 }
