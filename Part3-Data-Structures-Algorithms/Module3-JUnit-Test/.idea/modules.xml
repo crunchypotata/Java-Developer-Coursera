@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JUnit-Calculator-Test/JUnit-Calculator-Test.iml" filepath="$PROJECT_DIR$/JUnit-Calculator-Test/JUnit-Calculator-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module3-JUnit-Test.iml" filepath="$PROJECT_DIR$/.idea/Module3-JUnit-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test-Driven Development-principles/Test-Driven Development-principles.iml" filepath="$PROJECT_DIR$/Test-Driven Development-principles/Test-Driven Development-principles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/  Parameterized-JUnit-Tests/  Parameterized-JUnit-Tests.iml" filepath="$PROJECT_DIR$/  Parameterized-JUnit-Tests/  Parameterized-JUnit-Tests.iml" />
+    </modules>
+  </component>
+</project>
