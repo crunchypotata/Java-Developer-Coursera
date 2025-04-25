@@ -92,7 +92,7 @@ public class Main {
                 case 5:
                     // TODO 20: uncomment this when run the doubly linked list
                     //move to the previous song in the playlist
-                    // playlistManager.playPreviousFavoriteSong();
+                    playlistManager.playPreviousFavoriteSong();
                     break;
                 case 6:
                     playlistManager.setCurrentToFirst();
