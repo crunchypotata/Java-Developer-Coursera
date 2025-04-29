@@ -21,7 +21,8 @@ You can check the final labs of each course, because they provide more comprehan
   <li><b> Java syntax:</b> If-else statement, switch case, while-do-for loop, arrays, methods </li>
   <li><b> OOP:</b>  Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition </li>
   <li><b> File handling:</b> Handling Errors, I/O streams, Serialization, Deserilization </li>
-  <li><b> Algorithms:</b> ArrayList, LinkedLists: Singly, Doubly, Stacks, HashMap, TreeMap, Binary Search, Quick Sort, Merge Sort, Babble Sort </li>
-  <li><b> Basic Testing:</b> Writing of JUnit tests </li>
+  <li><b> Algorithms:</b> ArrayList, LinkedLists: Singly, Doubly, Stacks, Queues
+    HashMap, TreeMap, Binary Search, Quick Sort, Merge Sort, Babble Sort </li>
+  <li><b> Basic Testing:</b> Writing of JUnit tests, TDD principles </li>
 </ul>
 
