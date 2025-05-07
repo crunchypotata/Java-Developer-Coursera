@@ -45,7 +45,8 @@ public class Main {
                     String nameForNextExam = scanner.nextLine();
                     Student studentForNextExam = StudentInfoSystem.findStudentByName(nameForNextExam);
                     if (studentForNextExam != null) {
-                        studentForNextExam.getExamSchedule().viewNextExam();
+                        studentForNextExam.getExamSchedule().viewCurrentExam();  // current exam
+                        studentForNextExam.getExamSchedule().viewNextExam();     // next exam
                     } else {
                         System.out.println("Student not found.");
                     }
