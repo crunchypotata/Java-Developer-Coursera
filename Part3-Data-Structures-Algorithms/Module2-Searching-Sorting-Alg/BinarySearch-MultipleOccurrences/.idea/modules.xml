@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Linear-Search.iml" filepath="$PROJECT_DIR$/Linear-Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch-MultipleOccurrences.iml" filepath="$PROJECT_DIR$/BinarySearch-MultipleOccurrences.iml" />
     </modules>
   </component>
 </project>
