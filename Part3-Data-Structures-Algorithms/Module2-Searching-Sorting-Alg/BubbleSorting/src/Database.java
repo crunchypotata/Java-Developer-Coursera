@@ -49,7 +49,7 @@ public class Database {
     // TODO 4: Uncomment the bubble sort method
     public void bubbleSort() {
         // TODO 5: Declare two local variables n and swapped
-        Boolean swapped;
+        boolean swapped;
         int n = registrations.size();
         Registration currentReg;
         Registration nextReg;
@@ -71,7 +71,7 @@ public class Database {
                 // TODO 13 Write an IF condition that is true if the license
                 //         value of the current registration is greater than
                 //         that of the next Registration object.
-                if(currentReg.license.compareTo(nextReg.license) > 0) {
+                if (currentReg.license.compareTo(nextReg.license) > 0) {
                     // TODO 14: Swap the positions of the current and next
                     //          Registration objects in the array
 
