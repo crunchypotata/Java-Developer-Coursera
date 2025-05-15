@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fecfd7d4-b9c0-49d2-be0c-f46dfcc95e83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/.idea/Part2-Advanced-Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module1-Advanced-OOP/Composition-Lab/Composition-Lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module1-Advanced-OOP/HAS-A-hierarchy-composition/HAS-A-hierarchy-composition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module1-Advanced-OOP/Programming-with-abstraction-heritance/Programming-with-abstraction-heritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module2-Error-Handling/Try-Catch-Exercises/Try-Catch-Exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module3-File-Handling/Books-Management-System-GradedLab/Books-Management-System-GradedLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module3-File-Handling/Copy-Files/Copy-Files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module3-File-Handling/Reading-And-Writing-Files/Reading-And-Writing-Files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module3-File-Handling/Serializing-And-Deserializing-Objects/Serializing-And-Deserializing-Objects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Part2-Advanced-Java/Module4-FinalLab/Module4-FinalLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Linear-Search-Multiple-occurrences/Linear-Search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/Linear-Search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linear-Search/src/LinearSearchChallenge.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "crunchypotata"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/crunchypotata/Java-Developer-Coursera.git",
+    "accountId": "937dd95a-6719-4243-a2b7-e31678b1799b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2kHVSs9PNHzvGmjz2p5JCtQ7jUr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.RegistrationSearch.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/alex/Documents/GitHub/Java-Developer-Coursera/Part3-Data-Structures-Algorithms/Module2-Searching-Sorting-Alg/BinarySearch",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fecfd7d4-b9c0-49d2-be0c-f46dfcc95e83" name="Changes" comment="" />
+      <created>1722940492213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722940492213</updated>
+      <workItem from="1722940493172" duration="325000" />
+      <workItem from="1722944187388" duration="4000" />
+      <workItem from="1724071958234" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Database.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
