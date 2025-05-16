@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MergeSorting-basic.iml" filepath="$PROJECT_DIR$/MergeSorting-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MergeSort-recursive.iml" filepath="$PROJECT_DIR$/MergeSort-recursive.iml" />
     </modules>
   </component>
 </project>

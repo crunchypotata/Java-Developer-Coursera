@@ -10,64 +10,64 @@ public class Main {
         }
     }
 
-    public static void mergeSort(String[] arr, int left, int right) {
+    public static void mergeSort(String[] unsortedWords, int left, int right) {
         if (left < right) {
             int middle = (left + right) / 2;
 
             // Recursively divide the array
-            mergeSort(arr, left, middle);
-            mergeSort(arr, middle + 1, right);
+            mergeSort(unsortedWords, left, middle);
+            mergeSort(unsortedWords, middle + 1, right);
 
             // Merge the sorted halves
-            merge(arr, left, middle, right);
+            merge(unsortedWords, left, middle, right);
         }
     }
 
     public static void merge(String[] arr, int left, int middle, int right) {
         // Calculate the sizes of the two sub-arrays
-        int n1 = middle - left + 1;
-        int n2 = right - middle;
+        int leftSub = middle - left + 1;
+        int rightSub = right - middle;
 
         // Create temporary arrays for the left and right halves
-        String[] leftArray = new String[n1];
-        String[] rightArray = new String[n2];
+        String[] leftArray = new String[leftSub];
+        String[] rightArray = new String[rightSub];
 
         // Copy data to temporary arrays
-        for (int i = 0; i < n1; i++) {
+        for (int i = 0; i < leftSub; i++) {
             leftArray[i] = arr[left + i];
         }
-        for (int j = 0; j < n2; j++) {
+        for (int j = 0; j < rightSub; j++) {
             rightArray[j] = arr[middle + 1 + j];
         }
 
         // Initialize indices for merging
         int i = 0, j = 0;
-        int k = left;
+        int indexOfOrigArray = left;
 
         // Merge the two sorted arrays based on string length
-        while (i < n1 && j < n2) {
+        while (i < leftSub && j < rightSub) {
             if (leftArray[i].length() <= rightArray[j].length()) {
-                arr[k] = leftArray[i];
+                arr[indexOfOrigArray] = leftArray[i];
                 i++;
             } else {
-                arr[k] = rightArray[j];
+                arr[indexOfOrigArray] = rightArray[j];
                 j++;
             }
-            k++;
+            indexOfOrigArray++;
         }
 
         // Copy any remaining elements from the left array
-        while (i < n1) {
-            arr[k] = leftArray[i];
+        while (i < leftSub) {
+            arr[indexOfOrigArray] = leftArray[i];
             i++;
-            k++;
+            indexOfOrigArray++;
         }
 
         // Copy any remaining elements from the right array
-        while (j < n2) {
-            arr[k] = rightArray[j];
+        while (j < rightSub) {
+            arr[indexOfOrigArray] = rightArray[j];
             j++;
-            k++;
+            indexOfOrigArray++;
         }
     }
 }
