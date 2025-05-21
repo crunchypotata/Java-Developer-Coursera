@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Module2-Error-Handling/Advanced-Error-Handling-finalLab/Advanced_Error_Handling.iml" filepath="$PROJECT_DIR$/Module2-Error-Handling/Advanced-Error-Handling-finalLab/Advanced_Error_Handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3-File-Handling/Books-Management-System-GradedLab/Books-Management-System-GradedLab.iml" filepath="$PROJECT_DIR$/Module3-File-Handling/Books-Management-System-GradedLab/Books-Management-System-GradedLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module1-Advanced-OOP/Composition-finalLab/Composition-Lab.iml" filepath="$PROJECT_DIR$/Module1-Advanced-OOP/Composition-finalLab/Composition-Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3-File-Handling/Copy-Files/Copy-Files.iml" filepath="$PROJECT_DIR$/Module3-File-Handling/Copy-Files/Copy-Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module1-Advanced-OOP/HAS-A-hierarchy-composition/HAS-A-hierarchy-composition.iml" filepath="$PROJECT_DIR$/Module1-Advanced-OOP/HAS-A-hierarchy-composition/HAS-A-hierarchy-composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module1-Advanced-OOP/Implementing Interfaces/Implementing Interfaces.iml" filepath="$PROJECT_DIR$/Module1-Advanced-OOP/Implementing Interfaces/Implementing Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module4-FinalLab/Module4-FinalLab.iml" filepath="$PROJECT_DIR$/Module4-FinalLab/Module4-FinalLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Part2-Advanced-Java.iml" filepath="$PROJECT_DIR$/.idea/Part2-Advanced-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module1-Advanced-OOP/Programming-with-abstraction-heritance/Programming-with-abstraction-heritance.iml" filepath="$PROJECT_DIR$/Module1-Advanced-OOP/Programming-with-abstraction-heritance/Programming-with-abstraction-heritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3-File-Handling/Reading-And-Writing-Files/Reading-And-Writing-Files.iml" filepath="$PROJECT_DIR$/Module3-File-Handling/Reading-And-Writing-Files/Reading-And-Writing-Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3-File-Handling/Serializing-And-Deserializing-Objects/Serializing-And-Deserializing-Objects.iml" filepath="$PROJECT_DIR$/Module3-File-Handling/Serializing-And-Deserializing-Objects/Serializing-And-Deserializing-Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module2-Error-Handling/Try-Catch-Exercises/Try-Catch-Exercises.iml" filepath="$PROJECT_DIR$/Module2-Error-Handling/Try-Catch-Exercises/Try-Catch-Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module3-File-Handling/Writing-Different-File-Types/Writing-Different-File-Types.iml" filepath="$PROJECT_DIR$/Module3-File-Handling/Writing-Different-File-Types/Writing-Different-File-Types.iml" />
+    </modules>
+  </component>
+</project>
