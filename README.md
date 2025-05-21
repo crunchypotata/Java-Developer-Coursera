@@ -1,14 +1,14 @@
 # Java Developer Certificate (Amazon x Coursera)
 
-This repository contains my projects, graded labs, and final assignments completed as part of the [Amazon Junior Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/amazon-junior-software-developer) on Coursera.
+This repository contains my projects, graded labs, and final assignments completed as part of the [Amazon Junior Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/amazon-junior-software-developer).
 
 ## About the Program
 
-This 7-course professional certificate program is designed by Amazon and hosted on Coursera. It covers:
+This 7-course professional certificate program. It covers:
 
 ### 1. Introduction to Sofware Development ✅
 
-- Java syntax
+- Java SE/Core
 - OOP
 
 📂 [Part1-Syntax-and-OOP](./Part1-Syntax-and-OOP)
@@ -28,7 +28,7 @@ This 7-course professional certificate program is designed by Amazon and hosted 
 - Sorting 
 - Searchig
 - Stacks and Queues
-- Unit tests, TDD 
+- Unit tests, Test Driven Development
 
 📂 [Part3-Data-Structures-Algorithms](./Part3-Data-Structures-Algorithms)
 
