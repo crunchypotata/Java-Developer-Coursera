@@ -6,7 +6,7 @@ This repository contains my projects, graded labs, and final assignments complet
 
 This 7-course professional certificate program. It covers:
 
-### 1. Introduction to Sofware Development ✅
+### 1. Introduction to Software Development ✅
 
 - Java SE/Core
 - OOP
