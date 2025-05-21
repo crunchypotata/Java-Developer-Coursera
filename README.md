@@ -6,15 +6,16 @@ This repository contains my projects, graded labs, and final assignments complet
 
 This 7-course professional certificate program is designed by Amazon and hosted on Coursera. It covers:
 
-### 1. Introduction to Sofware Development (Java syntax and OOP) ✅
+### 1. Introduction to Sofware Development ✅
 
-- Java syntax: If-else statement, switch case, while-do-for loop, arrays, methods
-- OOP: Clases, Interfaces, Objects, Abstraction, Incapsulation, Heritance, Polymorphism, Composition 
+- Java syntax
+- OOP
 
 📂 [Part1-Syntax-and-OOP](./Part1-Syntax-and-OOP)
 
 ### 2.  Programming with Java (Advanced OOP, file handling, I/O streams) ✅
 
+- Advanced OOP
 - Reading/writing files
 - Handling Errors 
 - I/O streams 
@@ -33,6 +34,10 @@ This 7-course professional certificate program is designed by Amazon and hosted 
 
 ### 4. Database Management with Java and SQL 
 Course - 🎓 In Progress
+
+- SQL
+- JDBC
+- JavaFX
 
 ### 5. Full Stack Web Development 
 ### 6. Generative AI in Software Development 
