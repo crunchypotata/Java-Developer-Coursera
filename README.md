@@ -6,22 +6,24 @@ This repository contains my projects, graded labs, and final assignments complet
 
 This 7-course professional certificate program is designed by Amazon and hosted on Coursera. It covers:
 
-### 1. Introduction to Sofware Development - ✅ Completed
-Java syntax and OOP 
+### 1. Introduction to Sofware Development 
+Java syntax and OOP - ✅ Completed
 
 📂 [Part1-Syntax-and-OOP](./Part1-Syntax-and-OOP)
 
-### 2.  Programming with Java - ✅ Completed
-Advanced OOP, error handling, I/O streams 
+### 2.  Programming with Java 
+Advanced OOP, error handling, I/O streams - ✅ Completed
 
 📂 [Part2-Advanced-Java](./Part2-Advanced-Java)
 
-### 3. Data Structures and Algorithms - ✅ Completed
-Sorting, Searchig, Stacks and Queues, JUnit tests, TDD
+### 3. Data Structures and Algorithms 
+Sorting, Searchig, Stacks and Queues, JUnit tests, TDD - ✅ Completed
 
 📂 [Part3-Data-Structures-Algorithms](./Part3-Data-Structures-Algorithms)
 
-### 4. Database Management with Java and SQL - 🎓 In Progress
+### 4. Database Management with Java and SQL 
+Course - 🎓 In Progress
+
 ### 5. Full Stack Web Development 
 ### 6. Generative AI in Software Development 
 ### 7. Application Development 
