@@ -1,7 +1,5 @@
 ## Introduction to Software Development
 
-___
-
 ### Structure of course
 
 Part1-Syntax-and-OOP/          
@@ -10,13 +8,15 @@ Part1-Syntax-and-OOP/
 - Module3-Classes-and-Objects
 - Module4-FinalLab-Creating-a-Zoo
 
-Every module features a **graded lab** that tests the concepts covered. 
-It marked inside each folders as a ...GradedLab or lastLab.
+Every module features a **GradedLab** or lastLab that tests the concepts covered. 
 
-The Module 4 it is a **final graded project**, usually made up of several coding challenges
-to apply everything you've learned. 
+### Final Lab - Zoo Project
 
-___
+The Module 4 it is a **final graded project**. The project includes an abstract Animal class and two specific animals: a tiger and a dolphin. 
+I used inheritance to share common functionality and implemented several interfaces to reflect realistic behaviors.
+
+Additionally, I demonstrated composition with a third class, Penguin, which combines behaviors from both land and water animals.
+
 
 ### Topic covered
 
