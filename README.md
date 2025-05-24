@@ -1,10 +1,10 @@
-# Java Developer Certificate (Amazon x Coursera)
+# Amazon Junior Software Developer Course (Amazon x Coursera)
 
 This repository contains my projects, graded labs, and final assignments completed as part of the [Amazon Junior Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/amazon-junior-software-developer).
 
 ## About the Program
 
-This 7-course professional certificate program. It covers:
+This course covers 7 topics:
 
 ### 1. Introduction to Software Development ✅
 
