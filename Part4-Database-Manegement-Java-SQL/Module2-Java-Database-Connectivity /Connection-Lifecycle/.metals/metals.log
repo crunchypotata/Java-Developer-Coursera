@@ -1,0 +1,528 @@
+2025.05.30 13:23:45 INFO  Started: Metals version 1.3.5 in folders '/home/coder/coursera/StarterCode' for client Visual Studio Code 1.94.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3d8980f3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@73c09a95]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3d8980f3]
+2025.05.30 13:23:46 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2025.05.30 13:25:43 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/model/Customer.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:25:44 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/model/Customer.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:25:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-25-50-386.md
+2025.05.30 13:27:53 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/model/Customer.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:27:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-27-53-821.md
+2025.05.30 13:27:53 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/model/Customer.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:27:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-27-54-214.md
+2025.05.30 13:28:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:28:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-28-25-807.md
+2025.05.30 13:28:27 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:28:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-28-27-927.md
+2025.05.30 13:28:49 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:28:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-28-49-416.md
+2025.05.30 13:28:49 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:28:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-28-50-226.md
+2025.05.30 13:28:52 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:28:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-28-52-162.md
+2025.05.30 13:28:54 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:28:54 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:28:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-28-54-943.md
+2025.05.30 13:29:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:29:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:29:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-29-10-023.md
+2025.05.30 13:29:10 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:29:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-29-11-015.md
+2025.05.30 13:30:22 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:30:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-30-22-310.md
+2025.05.30 13:31:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-33-919.md
+2025.05.30 13:31:35 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-35-945.md
+2025.05.30 13:31:36 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:31:37 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:31:36 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-37-726.md
+2025.05.30 13:31:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:31:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-38-507.md
+May 30, 2025 1:31:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-38-910.md
+2025.05.30 13:31:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:31:39 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-39-617.md
+2025.05.30 13:31:44 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:31:44 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-44-726.md
+2025.05.30 13:31:47 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-47-845.md
+2025.05.30 13:31:47 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:31:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-48-608.md
+2025.05.30 13:31:57 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:31:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-31-57-921.md
+2025.05.30 13:32:02 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:32:02 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-02-620.md
+2025.05.30 13:32:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:32:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:32:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-09-318.md
+May 30, 2025 1:32:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-09-717.md
+2025.05.30 13:32:10 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:32:10 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-10-634.md
+2025.05.30 13:32:10 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-11-231.md
+2025.05.30 13:32:11 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-11-647.md
+2025.05.30 13:32:14 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:32:14 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-15-024.md
+2025.05.30 13:32:14 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-15-827.md
+2025.05.30 13:32:29 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:32:29 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-29-326.md
+2025.05.30 13:32:29 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:32:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-32-29-615.md
+2025.05.30 13:33:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-20-621.md
+2025.05.30 13:33:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-21-077.md
+2025.05.30 13:33:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-21-246.md
+2025.05.30 13:33:29 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-29-107.md
+2025.05.30 13:33:30 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:33:30 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-31-118.md
+2025.05.30 13:33:31 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-31-515.md
+2025.05.30 13:33:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-33-636.md
+2025.05.30 13:33:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-33-912.md
+2025.05.30 13:33:37 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-37-154.md
+2025.05.30 13:33:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:33:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-38-714.md
+2025.05.30 13:33:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:33:39 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-39-223.md
+2025.05.30 13:33:39 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:33:39 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-40-322.md
+2025.05.30 13:33:39 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:33:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-41-129.md
+2025.05.30 13:33:42 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-43-076.md
+2025.05.30 13:33:42 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-43-341.md
+2025.05.30 13:33:42 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-43-627.md
+2025.05.30 13:33:56 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:33:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-33-56-556.md
+2025.05.30 13:34:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-01-909.md
+2025.05.30 13:34:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-09-331.md
+2025.05.30 13:34:09 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-09-988.md
+2025.05.30 13:34:10 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-10-357.md
+2025.05.30 13:34:16 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:16 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-16-818.md
+2025.05.30 13:34:17 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:18 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-18-152.md
+2025.05.30 13:34:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-20-760.md
+2025.05.30 13:34:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:21 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-21-321.md
+2025.05.30 13:34:21 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:22 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-22-421.md
+2025.05.30 13:34:23 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:23 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-23-731.md
+2025.05.30 13:34:23 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:24 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-24-311.md
+2025.05.30 13:34:24 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:24 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-24-836.md
+2025.05.30 13:34:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-26-226.md
+2025.05.30 13:34:26 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-26-637.md
+2025.05.30 13:34:28 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:28 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:34:28 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-28-877.md
+2025.05.30 13:34:30 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-30-209.md
+2025.05.30 13:34:55 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-55-303.md
+2025.05.30 13:34:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:34:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-34-58-915.md
+2025.05.30 13:35:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-01-919.md
+2025.05.30 13:35:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-02-439.md
+2025.05.30 13:35:06 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-06-696.md
+2025.05.30 13:35:07 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-07-719.md
+2025.05.30 13:35:08 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-08-426.md
+2025.05.30 13:35:08 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-08-685.md
+2025.05.30 13:35:15 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-16-136.md
+2025.05.30 13:35:17 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-17-823.md
+2025.05.30 13:35:18 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-18-851.md
+2025.05.30 13:35:18 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-19-146.md
+2025.05.30 13:35:31 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-32-008.md
+2025.05.30 13:35:34 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:34 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-34-410.md
+2025.05.30 13:35:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-40-631.md
+2025.05.30 13:35:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-40-941.md
+2025.05.30 13:35:41 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:41 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-42-146.md
+2025.05.30 13:35:41 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-42-537.md
+2025.05.30 13:35:43 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-43-171.md
+2025.05.30 13:35:45 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:46 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-46-331.md
+2025.05.30 13:35:47 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-47-108.md
+2025.05.30 13:35:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 13:35:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:35:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-35-48-728.md
+2025.05.30 13:36:20 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:36:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-36-20-536.md
+2025.05.30 13:36:26 WARN  no build target for: /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java[0m
+2025.05.30 13:36:26 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:36:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-36-26-733.md
+2025.05.30 13:36:27 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:36:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-36-27-312.md
+2025.05.30 13:37:55 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:37:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-37-55-159.md
+2025.05.30 13:37:55 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:37:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-37-56-017.md
+2025.05.30 13:37:55 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:37:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-37-56-399.md
+2025.05.30 13:37:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 1:37:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_13-37-58-856.md
+2025.05.30 13:38:01 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Output:
+[0m
+2025.05.30 14:26:54 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:26:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-26-54-861.md
+2025.05.30 14:26:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:26:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:26:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:26:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-26-58-448.md
+2025.05.30 14:26:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:26:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-26-58-935.md
+2025.05.30 14:27:14 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:27:14 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-14-438.md
+2025.05.30 14:27:15 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-15-845.md
+2025.05.30 14:27:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-26-015.md
+2025.05.30 14:27:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-38-543.md
+2025.05.30 14:27:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:27:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-48-842.md
+2025.05.30 14:27:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-49-223.md
+2025.05.30 14:27:57 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:27:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-27-57-761.md
+2025.05.30 14:28:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-01-641.md
+2025.05.30 14:28:02 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-02-558.md
+2025.05.30 14:28:27 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-27-654.md
+2025.05.30 14:28:32 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:32 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:32 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-32-366.md
+2025.05.30 14:28:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-33-739.md
+2025.05.30 14:28:36 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:36 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-36-642.md
+2025.05.30 14:28:36 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-37-271.md
+2025.05.30 14:28:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:40 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-40-447.md
+2025.05.30 14:28:43 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Output:
+[0m
+2025.05.30 14:28:46 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:46 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-46-609.md
+2025.05.30 14:28:46 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:47 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:47 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-47-410.md
+2025.05.30 14:28:47 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-48-041.md
+2025.05.30 14:28:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-48-726.md
+2025.05.30 14:28:48 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-49-495.md
+2025.05.30 14:28:51 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:51 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Output:
+[0m
+May 30, 2025 2:28:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-51-695.md
+2025.05.30 14:28:53 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:53 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-54-050.md
+2025.05.30 14:28:53 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:54 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-54-636.md
+2025.05.30 14:28:55 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:55 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-55-359.md
+2025.05.30 14:28:56 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-56-830.md
+2025.05.30 14:28:57 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Output:
+[0m
+2025.05.30 14:28:56 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-57-705.md
+2025.05.30 14:28:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:59 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-59-277.md
+2025.05.30 14:28:58 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:28:59 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:28:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-28-59-846.md
+2025.05.30 14:29:00 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:00 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-00-542.md
+2025.05.30 14:29:01 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-01-945.md
+2025.05.30 14:29:03 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-03-736.md
+2025.05.30 14:29:03 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-04-606.md
+2025.05.30 14:29:05 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-05-228.md
+2025.05.30 14:29:17 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:17 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-17-723.md
+2025.05.30 14:29:17 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-18-318.md
+2025.05.30 14:29:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-25-435.md
+2025.05.30 14:29:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:25 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-25-929.md
+2025.05.30 14:29:26 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:26 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-26-692.md
+2025.05.30 14:29:27 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:28 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-28-233.md
+2025.05.30 14:29:27 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-28-817.md
+2025.05.30 14:29:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:33 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-34-050.md
+2025.05.30 14:29:37 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-37-211.md
+2025.05.30 14:29:37 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-37-589.md
+2025.05.30 14:29:37 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-38-018.md
+2025.05.30 14:29:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-38-708.md
+2025.05.30 14:29:38 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-39-018.md
+2025.05.30 14:29:41 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.05.30 14:29:42 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-42-121.md
+2025.05.30 14:29:44 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-44-495.md
+2025.05.30 14:29:46 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:29:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-29-46-201.md
+2025.05.30 14:30:07 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/ConnectionHelper.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:30:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-30-07-511.md
+2025.05.30 14:30:12 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:30:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-30-13-018.md
+2025.05.30 14:30:13 INFO  no build target found for /home/coder/coursera/StarterCode/src/main/java/com/example/database/DatabaseUtils.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 30, 2025 2:30:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/StarterCode/.metals/.reports/metals-full/2025-05-30/r_compiler-error_14-30-13-344.md
