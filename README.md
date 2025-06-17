@@ -2,13 +2,13 @@
 
 This repository contains my projects, graded labs, and final assignments completed as part of the [Amazon Junior Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/amazon-junior-software-developer).
 
-## About the Program
+##🎓 About the Program
 
 This course covers 7 topics:
 
 ### 1. Introduction to Software Development ✅
 
-- Java SE/Core
+- Java SE (Core)
 - OOP
 
 📂 [Part1-Syntax-and-OOP](./Part1-Syntax-and-OOP)
@@ -39,7 +39,14 @@ Course - 🎓 In Progress
 - JDBC
 - JavaFX
 
+📂 [Part4-Database-Manegement-Java-SQL](./Part4-Database-Manegement-Java-SQL)
+
 ### 5. Full Stack Web Development 
+
+- HTML, CSS, JavaScript
+- MVC, Spring, Spring Boot
+- RESTful servises, AWS
+
 ### 6. Generative AI in Software Development 
 ### 7. Application Development 
 
