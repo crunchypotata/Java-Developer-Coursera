@@ -2,7 +2,7 @@
 
 This repository contains my projects, graded labs, and final assignments completed as part of the [Amazon Junior Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/amazon-junior-software-developer).
 
-##🎓 About the Program
+## 🎓 About the Program
 
 This course covers 7 topics:
 
