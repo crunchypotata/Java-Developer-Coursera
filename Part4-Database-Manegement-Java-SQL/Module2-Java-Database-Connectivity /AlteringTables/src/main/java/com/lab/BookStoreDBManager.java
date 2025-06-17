@@ -153,7 +153,7 @@ public class BookStoreDBManager {
             
         } catch (SQLException sqlException) {
             System.err.println("addPublishedDateColumn SQLException: "+sqlException.getMessage());
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.err.println("addPublishedDateColumn Exception: "+e.getMessage());
         }
     }
@@ -168,6 +168,7 @@ public class BookStoreDBManager {
 
             /*TODO 11: execute the SQL query using stmt.executeUpdate() to remove the column */
             stmt.execute(dropColumnSQL);
+
             /*TODO 12: print a confirmation message once the column has been dropped */
             System.out.println("Column 'author' dropped successfully.");
 
