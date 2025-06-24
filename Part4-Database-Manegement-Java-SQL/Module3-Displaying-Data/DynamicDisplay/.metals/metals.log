@@ -1,0 +1,818 @@
+2025.06.24 15:08:00 INFO  Started: Metals version 1.3.5 in folders '/home/coder/coursera/DynamicDisplay' for client Visual Studio Code 1.92.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@18674ebf]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3dbc74f8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@18674ebf]
+2025.06.24 15:08:01 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+Jun 24, 2025 3:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jun 24, 2025 3:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jun 24, 2025 3:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 24, 2025 3:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.06.24 15:08:04 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:08:05 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:06 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:09 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:10 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-11-839.md
+2025.06.24 15:08:12 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-12-564.md
+2025.06.24 15:08:13 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-14-131.md
+2025.06.24 15:08:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-14-619.md
+2025.06.24 15:08:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-15-027.md
+2025.06.24 15:08:15 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-15-540.md
+2025.06.24 15:08:15 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-16-121.md
+2025.06.24 15:08:18 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-19-112.md
+2025.06.24 15:08:20 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:20 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+Jun 24, 2025 3:08:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-20-712.md
+2025.06.24 15:08:21 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:22 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-22-746.md
+2025.06.24 15:08:23 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-23-244.md
+2025.06.24 15:08:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-25-407.md
+2025.06.24 15:08:26 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-26-826.md
+2025.06.24 15:08:26 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-27-532.md
+2025.06.24 15:08:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:08:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-28-030.md
+2025.06.24 15:08:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-28-506.md
+Jun 24, 2025 3:08:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-28-807.md
+2025.06.24 15:08:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-29-047.md
+2025.06.24 15:08:29 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:08:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-29-823.md
+2025.06.24 15:08:31 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-31-409.md
+2025.06.24 15:08:44 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:08:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-45-034.md
+Jun 24, 2025 3:08:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+Jun 24, 2025 3:09:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+2025.06.24 15:09:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-14-830.md
+2025.06.24 15:09:15 WARN  no build target for: /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java[0m
+2025.06.24 15:09:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-16-314.md
+2025.06.24 15:09:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-17-004.md
+2025.06.24 15:09:18 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-18-414.md
+2025.06.24 15:09:34 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:35 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:35 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-35-867.md
+2025.06.24 15:09:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-37-863.md
+2025.06.24 15:09:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-39-110.md
+2025.06.24 15:09:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-39-324.md
+2025.06.24 15:09:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-39-625.md
+2025.06.24 15:09:40 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:40 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-40-621.md
+2025.06.24 15:09:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-42-156.md
+2025.06.24 15:09:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-42-561.md
+2025.06.24 15:09:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-43-021.md
+2025.06.24 15:09:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-43-711.md
+2025.06.24 15:09:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:44 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-44-519.md
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-45-305.md
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-45-805.md
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-46-325.md
+Jun 24, 2025 3:09:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-46-623.md
+2025.06.24 15:09:47 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:47 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-47-151.md
+2025.06.24 15:09:48 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:48 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-48-817.md
+2025.06.24 15:09:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-50-630.md
+2025.06.24 15:09:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-50-927.md
+2025.06.24 15:09:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:09:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:09:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-56-813.md
+2025.06.24 15:10:26 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-26-706.md
+2025.06.24 15:10:26 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-27-120.md
+2025.06.24 15:10:32 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-32-434.md
+2025.06.24 15:10:33 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-33-551.md
+2025.06.24 15:10:34 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-34-927.md
+2025.06.24 15:10:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-37-117.md
+2025.06.24 15:10:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-42-992.md
+2025.06.24 15:10:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:10:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-44-116.md
+2025.06.24 15:10:44 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-44-624.md
+2025.06.24 15:10:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-56-604.md
+2025.06.24 15:10:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-57-648.md
+2025.06.24 15:10:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:10:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-58-120.md
+2025.06.24 15:12:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-14-543.md
+2025.06.24 15:12:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-28-011.md
+2025.06.24 15:12:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-28-933.md
+2025.06.24 15:12:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-29-325.md
+2025.06.24 15:12:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-30-229.md
+2025.06.24 15:12:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-30-714.md
+Jun 24, 2025 3:12:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-30-915.md
+2025.06.24 15:12:31 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-31-085.md
+2025.06.24 15:12:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-37-011.md
+2025.06.24 15:12:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-37-320.md
+2025.06.24 15:12:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-37-715.md
+2025.06.24 15:12:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-38-563.md
+2025.06.24 15:12:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-38-906.md
+2025.06.24 15:12:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-39-425.md
+2025.06.24 15:12:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-39-831.md
+2025.06.24 15:12:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:40 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-40-218.md
+2025.06.24 15:12:41 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:41 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-42-073.md
+2025.06.24 15:12:42 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-42-342.md
+2025.06.24 15:12:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-51-440.md
+2025.06.24 15:12:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-51-772.md
+2025.06.24 15:12:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-52-316.md
+2025.06.24 15:12:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-54-247.md
+2025.06.24 15:12:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-57-840.md
+2025.06.24 15:12:58 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:12:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-58-517.md
+2025.06.24 15:12:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:12:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-59-511.md
+2025.06.24 15:12:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-59-976.md
+2025.06.24 15:12:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:00 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-00-357.md
+2025.06.24 15:13:00 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:12:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-00-729.md
+2025.06.24 15:13:03 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:03 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-03-717.md
+2025.06.24 15:13:03 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:03 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-04-233.md
+2025.06.24 15:13:04 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-04-523.md
+2025.06.24 15:13:04 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:04 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-04-865.md
+2025.06.24 15:13:04 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:04 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-05-606.md
+2025.06.24 15:13:05 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-06-110.md
+2025.06.24 15:13:08 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:08 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-08-649.md
+2025.06.24 15:13:09 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:13:09 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-10-005.md
+2025.06.24 15:13:10 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-10-181.md
+2025.06.24 15:13:17 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-17-962.md
+2025.06.24 15:13:19 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:13:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-19-423.md
+2025.06.24 15:14:11 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:14:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-14-11-524.md
+2025.06.24 15:14:33 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:14:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-14-33-424.md
+2025.06.24 15:14:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:14:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-14-54-404.md
+2025.06.24 15:17:22 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-22-638.md
+2025.06.24 15:17:23 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-23-325.md
+2025.06.24 15:17:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-25-347.md
+2025.06.24 15:17:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-30-601.md
+2025.06.24 15:17:33 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-33-266.md
+2025.06.24 15:17:33 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-33-634.md
+2025.06.24 15:17:33 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-33-800.md
+2025.06.24 15:17:33 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-34-120.md
+2025.06.24 15:17:34 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-34-540.md
+2025.06.24 15:17:40 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-40-952.md
+2025.06.24 15:17:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-47-052.md
+2025.06.24 15:17:48 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-48-432.md
+2025.06.24 15:17:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-51-118.md
+2025.06.24 15:17:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-52-515.md
+2025.06.24 15:17:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-52-988.md
+2025.06.24 15:17:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-53-463.md
+2025.06.24 15:17:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:17:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-56-883.md
+2025.06.24 15:17:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-57-680.md
+2025.06.24 15:17:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:17:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-58-051.md
+2025.06.24 15:18:21 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-21-098.md
+2025.06.24 15:18:21 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-21-317.md
+2025.06.24 15:18:21 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-21-665.md
+2025.06.24 15:18:21 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-22-113.md
+2025.06.24 15:18:23 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-23-769.md
+2025.06.24 15:18:23 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-24-636.md
+2025.06.24 15:18:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:18:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-30-047.md
+2025.06.24 15:18:34 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-34-749.md
+2025.06.24 15:18:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-38-161.md
+Jun 24, 2025 3:18:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 532
+2025.06.24 15:18:51 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-51-111.md
+2025.06.24 15:18:52 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:18:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-52-580.md
+2025.06.24 15:18:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:18:53 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-53-519.md
+2025.06.24 15:18:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:18:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:18:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-54-365.md
+2025.06.24 15:19:07 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-07-428.md
+2025.06.24 15:19:07 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-07-644.md
+2025.06.24 15:19:11 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:19:11 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-11-844.md
+2025.06.24 15:19:13 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:19:13 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-13-639.md
+2025.06.24 15:19:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:19:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-15-030.md
+2025.06.24 15:19:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:19:17 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-17-087.md
+2025.06.24 15:19:37 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-37-321.md
+2025.06.24 15:19:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-38-420.md
+2025.06.24 15:19:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-38-880.md
+2025.06.24 15:19:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-39-615.md
+2025.06.24 15:19:42 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:19:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-43-611.md
+2025.06.24 15:19:43 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-43-926.md
+2025.06.24 15:19:44 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:19:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-45-073.md
+2025.06.24 15:19:44 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-45-939.md
+2025.06.24 15:19:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-46-307.md
+2025.06.24 15:19:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-46-593.md
+2025.06.24 15:19:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:19:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-50-110.md
+2025.06.24 15:19:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:19:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-50-440.md
+2025.06.24 15:20:58 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:20:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-20-58-508.md
+2025.06.24 15:20:58 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:20:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-20-58-740.md
+2025.06.24 15:21:05 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:21:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-21-05-589.md
+2025.06.24 15:26:18 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:18 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-18-707.md
+Jun 24, 2025 3:26:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-18-806.md
+2025.06.24 15:26:19 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-19-848.md
+2025.06.24 15:26:22 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:22 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-22-405.md
+2025.06.24 15:26:23 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-23-477.md
+2025.06.24 15:26:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-25-144.md
+2025.06.24 15:26:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-27-312.md
+2025.06.24 15:26:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-28-237.md
+2025.06.24 15:26:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-28-518.md
+2025.06.24 15:26:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-28-869.md
+2025.06.24 15:26:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-29-413.md
+2025.06.24 15:26:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-29-836.md
+2025.06.24 15:26:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-31-005.md
+2025.06.24 15:26:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-36-672.md
+2025.06.24 15:26:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-46-176.md
+2025.06.24 15:26:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-46-578.md
+2025.06.24 15:26:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-50-706.md
+2025.06.24 15:26:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-51-361.md
+2025.06.24 15:26:55 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:26:55 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-55-633.md
+2025.06.24 15:26:55 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-55-853.md
+2025.06.24 15:26:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-57-332.md
+2025.06.24 15:26:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:26:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-58-124.md
+2025.06.24 15:27:01 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-01-210.md
+2025.06.24 15:27:02 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-02-735.md
+2025.06.24 15:27:06 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-06-138.md
+2025.06.24 15:27:23 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-23-732.md
+2025.06.24 15:27:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:27:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-29-632.md
+2025.06.24 15:27:29 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-29-845.md
+2025.06.24 15:27:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-54-416.md
+2025.06.24 15:27:54 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-54-706.md
+2025.06.24 15:27:55 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-55-907.md
+2025.06.24 15:27:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:27:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-57-919.md
+2025.06.24 15:27:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:27:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-58-567.md
+2025.06.24 15:28:01 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:28:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-01-126.md
+2025.06.24 15:28:01 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:28:02 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:28:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-02-137.md
+2025.06.24 15:28:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:28:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:28:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-16-824.md
+2025.06.24 15:28:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:28:30 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:28:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-30-911.md
+2025.06.24 15:28:34 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:28:34 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:28:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-35-147.md
+2025.06.24 15:28:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:28:36 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:28:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-36-853.md
+2025.06.24 15:29:01 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:01 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-02-137.md
+2025.06.24 15:29:08 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:08 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-08-728.md
+2025.06.24 15:29:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-25-533.md
+2025.06.24 15:29:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:25 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:26 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-26-359.md
+Jun 24, 2025 3:29:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-26-539.md
+2025.06.24 15:29:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-27-309.md
+2025.06.24 15:29:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:28 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-28-529.md
+2025.06.24 15:29:35 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:35 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-35-424.md
+2025.06.24 15:29:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:38 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-38-210.md
+2025.06.24 15:29:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:39 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-39-608.md
+2025.06.24 15:29:42 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:29:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:45 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-45-308.md
+2025.06.24 15:29:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:46 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-47-009.md
+2025.06.24 15:29:48 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:29:48 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:49 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-49-144.md
+2025.06.24 15:29:49 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:29:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:50 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-51-027.md
+2025.06.24 15:29:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:52 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-52-525.md
+2025.06.24 15:29:56 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:57 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-57-058.md
+2025.06.24 15:29:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:29:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:29:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-59-818.md
+2025.06.24 15:29:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:30:00 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-00-336.md
+2025.06.24 15:30:09 WARN  Running javac-semanticdb failed for file:///home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Output:
+[0m
+2025.06.24 15:30:11 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:30:11 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-11-837.md
+2025.06.24 15:30:13 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:30:13 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-13-930.md
+2025.06.24 15:30:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-14-227.md
+2025.06.24 15:30:13 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:30:14 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-14-821.md
+2025.06.24 15:30:15 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:30:15 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-15-335.md
+2025.06.24 15:30:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2025.06.24 15:30:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-16-331.md
+2025.06.24 15:30:16 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-16-647.md
+2025.06.24 15:30:19 WARN  no build target for: /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java[0m
+2025.06.24 15:30:19 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:30:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-19-704.md
+Jun 24, 2025 3:30:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.06.24 15:33:22 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:33:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-33-22-437.md
+2025.06.24 15:43:27 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:43:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-43-27-424.md
+2025.06.24 15:45:18 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:45:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-45-18-155.md
+Jun 24, 2025 3:46:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1089
+2025.06.24 15:51:17 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:51:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-51-17-219.md
+2025.06.24 15:51:59 WARN  no build target for: /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java[0m
+2025.06.24 15:51:59 INFO  no build target found for /home/coder/coursera/DynamicDisplay/src/main/java/org/example/App.java. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2025 3:51:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/coder/coursera/DynamicDisplay/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-51-59-153.md
+2025.06.24 15:53:00 INFO  Shutting down server[0m
+2025.06.24 15:53:00 INFO  shutting down Metals[0m
