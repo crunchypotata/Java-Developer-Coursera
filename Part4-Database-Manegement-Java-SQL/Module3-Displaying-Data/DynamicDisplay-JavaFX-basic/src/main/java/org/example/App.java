@@ -1,9 +1,9 @@
+package org.example;
 import java.io.IOException;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
@@ -33,7 +33,7 @@ private Label noticeBoard;
         vbox.setStyle("-fx-padding: 20; -fx-alignment: center;");
 
         //TODO 7 Create a Scene using the VBox layout and set it on the primary Stage.
-        Scene scene = new Scene(vbox, 640, 480);
+        Scene scene = new Scene(vbox, 400, 200);
         primaryStage.setTitle("Train Notice Board");
         primaryStage.setScene(scene);
         primaryStage.show();
