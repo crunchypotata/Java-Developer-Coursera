@@ -32,21 +32,22 @@ This course covers 7 topics:
 
 📂 [Part3-Data-Structures-Algorithms](./Part3-Data-Structures-Algorithms)
 
-### 4. Database Management with Java and SQL 
-Course - 🎓 In Progress
+### 4. Database Management with Java and SQL ✅
 
 - SQL
 - JDBC
 - JavaFX
 
-📂 [Part4-Database-Manegement-Java-SQL](./Part4-Database-Manegement-Java-SQL)
+📂 [Part4-Database-Management-Java-SQL](./Part4-Database-Management-Java-SQL)
 
 ### 5. Full Stack Web Development 
 Course - 🎓 In Progress
 
 - HTML, CSS, JavaScript
 - MVC, Spring, Spring Boot
-- RESTful servises, AWS
+- RESTful services, AWS
+
+📂 [Part5-Full-Stack-Web-Development](./Part5-Full-Stack-Web-Development)
 
 ### 6. Generative AI in Software Development 
 ### 7. Application Development 

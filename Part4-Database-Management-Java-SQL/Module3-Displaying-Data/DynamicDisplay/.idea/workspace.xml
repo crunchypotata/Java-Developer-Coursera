@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7198661-1582-49ac-9731-6334a4cb0245" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-11-839.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-12-564.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-14-131.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-14-619.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-15-027.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-15-540.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-16-121.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-19-112.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-20-712.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-22-746.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-23-244.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-25-407.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-26-826.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-27-532.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-28-030.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-28-506.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-28-807.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-29-047.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-29-823.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-31-409.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-08-45-034.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-14-830.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-16-314.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-17-004.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-18-414.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-35-867.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-37-863.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-39-110.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-39-324.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-39-625.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-40-621.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-42-156.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-42-561.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-43-021.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-43-711.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-44-519.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-45-305.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-45-805.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-46-325.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-46-623.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-47-151.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-48-817.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-50-630.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-50-927.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-09-56-813.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-26-706.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-27-120.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-32-434.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-33-551.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-34-927.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-37-117.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-42-992.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-44-116.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-44-624.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-56-604.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-57-648.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-10-58-120.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-14-543.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-28-011.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-28-933.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-29-325.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-30-229.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-30-714.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-30-915.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-31-085.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-37-011.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-37-320.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-37-715.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-38-563.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-38-906.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-39-425.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-39-831.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-40-218.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-42-073.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-42-342.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-51-440.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-51-772.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-52-316.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-54-247.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-57-840.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-58-517.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-59-511.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-12-59-976.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-00-357.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-00-729.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-03-717.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-04-233.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-04-523.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-04-865.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-05-606.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-06-110.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-08-649.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-10-005.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-10-181.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-17-962.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-13-19-423.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-14-11-524.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-14-33-424.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-14-54-404.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-22-638.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-23-325.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-25-347.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-30-601.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-33-266.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-33-634.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-33-800.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-34-120.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-34-540.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-40-952.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-47-052.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-48-432.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-51-118.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-52-515.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-52-988.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-53-463.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-56-883.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-57-680.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-17-58-051.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-21-098.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-21-317.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-21-665.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-22-113.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-23-769.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-24-636.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-30-047.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-34-749.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-38-161.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-51-111.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-52-580.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-53-519.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-18-54-365.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-07-428.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-07-644.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-11-844.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-13-639.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-15-030.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-17-087.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-37-321.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-38-420.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-38-880.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-39-615.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-43-611.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-43-926.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-45-073.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-45-939.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-46-307.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-46-593.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-50-110.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-19-50-440.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-20-58-508.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-20-58-740.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-21-05-589.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-18-707.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-18-806.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-19-848.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-22-405.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-23-477.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-25-144.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-27-312.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-28-237.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-28-518.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-28-869.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-29-413.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-29-836.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-31-005.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-36-672.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-46-176.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-46-578.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-50-706.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-51-361.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-55-633.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-55-853.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-57-332.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-26-58-124.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-01-210.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-02-735.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-06-138.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-23-732.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-29-632.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-29-845.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-54-416.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-54-706.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-55-907.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-57-919.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-27-58-567.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-01-126.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-02-137.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-16-824.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-30-911.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-35-147.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-28-36-853.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-02-137.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-08-728.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-25-533.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-26-359.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-26-539.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-27-309.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-28-529.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-35-424.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-38-210.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-39-608.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-45-308.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-47-009.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-49-144.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-51-027.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-52-525.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-57-058.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-29-59-818.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-00-336.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-11-837.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-13-930.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-14-227.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-14-821.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-15-335.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-16-331.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-16-647.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-30-19-704.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-33-22-437.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-43-27-424.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-45-18-155.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-51-17-219.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/.reports/metals-full/2025-06-24/r_compiler-error_15-51-59-153.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/metals.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/metals.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "crunchypotata"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/crunchypotata/Java-Developer-Coursera.git",
+    "accountId": "937dd95a-6719-4243-a2b7-e31678b1799b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2yyPcQV47HKSrBeENTyb4XDP51G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/alex/Documents/GitHub/Java-Developer-Coursera/Part4-Database-Manegement-Java-SQL/Module3-Displaying-Data/DynamicDisplay"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7198661-1582-49ac-9731-6334a4cb0245" name="Changes" comment="" />
+      <created>1750803919022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750803919022</updated>
+    </task>
+    <servers />
+  </component>
+</project>
