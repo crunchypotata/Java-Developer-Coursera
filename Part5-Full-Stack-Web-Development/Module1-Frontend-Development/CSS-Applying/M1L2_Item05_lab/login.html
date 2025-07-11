@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="css/color-scheme.css" />
+
+    <!--  TODO 1 Link the page to form-styles.css files --> 
+        <link rel="stylesheet" href="css/form-styles.css" />
+
+        <style type="text/css">
+            /* Font Properties */
+            .main-heading {
+                font-family: "Arial", sans-serif; /* Default web-safe font */
+                font-size: 36px;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+
+            .intro {
+                font-family: "Georgia", serif;
+                font-size: 18px;
+                font-weight: normal;
+                line-height: 1.6;
+            }
+
+            /* Text Decoration */
+            .overline {
+                text-decoration: overline;
+                color: #333333;
+            }
+
+            .underline {
+                text-decoration: underline;
+                color: #007bff;
+            }
+
+            .strikethrough {
+                text-decoration: line-through;
+                color: #0056b3;
+            }
+
+            /* Text Alignment */
+            .center-text {
+                text-align: center;
+            }
+
+            /* Text Shadow */
+            .shadow-text {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            }
+
+            /* Text Transform */
+            .uppercase-text {
+                text-transform: uppercase;
+            }
+
+            .fontSize120 {
+                font-size: 120px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!-- <img src="https://placehold.co/100x100" alt="Logo" /> -->
+                <a href="index.html">Home</a> |
+                <a href="registration.html">Registration</a> |
+                <a href="login.html">Login</a> |
+                <a href="categories.html">Categories</a> |
+                <a href="shopping-list.html">Shopping List</a> |
+                <a href="feedback.html">Feedback</a> |
+                <a href="https://www.google.com">Google</a>
+            </nav>
+        </header>
+
+        <main>
+        
+            <section>
+                <form action="#" method="POST">
+                    <label for="username">Username:</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        value="Value" /><br /><br />
+
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        value="Value" /><br /><br />
+
+                    <button type="submit">Login</button>
+                    <button type="reset">Clear</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; A.J.S.D Java Developer, 2150</p>
+        </footer>
+    </body>
+</html>

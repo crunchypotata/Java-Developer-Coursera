@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register with Us</title>
+        <!-- Link to CSS files -->
+        <link rel="stylesheet" href="css/color-scheme.css" />
+        <link rel="stylesheet" href="css/form-styles.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="https://placehold.co/100x100" alt="Logo" />
+                <a href="index.html">Home</a> |
+                <a href="registration.html">Registration</a> |
+                <a href="login.html">Login</a> |
+                <a href="categories.html">Categories</a> |
+                <a href="shopping-list.html">Shopping List</a> |
+                <a href="feedback.html">Feedback</a>
+            </nav>
+        </header>
+
+        <section>
+            <h1>Register with Us</h1>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter Username"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter Password"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        placeholder="Confirm Password"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter Email"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" />
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                        class="inline-input" />
+                    <label for="male" class="inline-label">Male</label>
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                        class="inline-input" />
+                    <label for="female" class="inline-label">Female</label>
+
+                    <input
+                        type="radio"
+                        id="other"
+                        name="gender"
+                        value="other"
+                        class="inline-input" />
+                    <label for="other" class="inline-label">Other</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="hobbies">Hobbies:</label>
+                    <input
+                        type="checkbox"
+                        id="sports"
+                        name="hobbies"
+                        value="sports"
+                        class="inline-input" />
+                    <label for="sports" class="inline-label">Sports</label>
+
+                    <input
+                        type="checkbox"
+                        id="music"
+                        name="hobbies"
+                        value="music"
+                        class="inline-input" />
+                    <label for="music" class="inline-label">Music</label>
+
+                    <input
+                        type="checkbox"
+                        id="travel"
+                        name="hobbies"
+                        value="travel"
+                        class="inline-input" />
+                    <label for="travel" class="inline-label">Travel</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="USA">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; A.J.S.D Java Developer, 2150</p>
+        </footer>
+    </body>
+</html>

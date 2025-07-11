@@ -3,6 +3,7 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
+            <link rel="stylesheet" href="/css/styles.css">
             <title>
                 Coffee Shop Menu
             </title>

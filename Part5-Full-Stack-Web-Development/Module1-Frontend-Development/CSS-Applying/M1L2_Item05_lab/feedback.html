@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Feedback Form</title>
+        <link rel="stylesheet" href="css/color-scheme.css" />
+
+         <!-- TODO 7 - Add an internal <style> block and insert the required button styles.  -->
+        <style>
+        .submit-button {
+        background-color: #28a745;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px; 
+        font-size: 16px;
+        cursor: pointer; 
+        }
+
+        .submit-button:hover {
+        background-color: #218838; 
+        }
+        
+        .reset-button {
+        background-color: red;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+
+        .reset-button:hover {
+        background-color: #8B0000; 
+        }
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!-- <img src="https://placehold.co/100x100" alt="Logo" /> -->
+                <a href="index.html">Home</a> |
+                <a href="registration.html">Registration</a> |
+                <a href="login.html">Login</a> |
+                <a href="categories.html">Categories</a> |
+                <a href="shopping-list.html">Shopping List</a> |
+                <a href="feedback.html">Feedback</a>
+            </nav>
+
+
+         
+        </header>
+
+        <main>
+            <section>
+                <h1>Feedback form to report issue</h1>
+
+                <form action="#" method="POST">
+                    <label for="username">Username:</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        value="Value" /><br /><br />
+
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        value="Value" /><br /><br />
+
+                    <label for="contact-method">Contact me using:</label>
+                    <select id="contact-method" name="contact-method">
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option></select
+                    ><br /><br />
+
+                    <label for="phone">Phone Number:</label>
+                    <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        placeholder="Placeholder" /><br /><br />
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Placeholder" /><br /><br />
+
+                    <label for="comments">Comments:</label>
+                    <textarea
+                        id="comments"
+                        name="comments"
+                        rows="5"
+                        cols="30"></textarea
+                    ><br /><br />
+
+                    <label for="screenshot">Screenshot of issue:</label>
+                    <input
+                        type="file"
+                        id="screenshot"
+                        name="screenshot" /><br /><br />
+
+                      <button type="submit" class="submit-button">Send</button>
+                    <button type="reset" class="reset-button">Clear</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; A.J.S.D Java Developer, 2150</p>
+        </footer>
+    </body>
+</html>
