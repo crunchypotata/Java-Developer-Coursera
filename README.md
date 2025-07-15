@@ -35,7 +35,7 @@ This course covers 7 topics:
 ### 4. Database Management with Java and SQL ✅
 
 - SQL
-- JDBC
+- JDBC (SCRUD, ACID, transactions) 
 - JavaFX
 
 📂 [Part4-Database-Management-Java-SQL](./Part4-Database-Management-Java-SQL)
