@@ -37,7 +37,7 @@ public class ProductController {
     @RequestMapping("/list")
     public String listProducts(Model productListModel) {
         productListModel.addAttribute("products", productsList);
-        return "menu"; // путь: /WEB-INF/jsp/menu.jsp
+        return "menu"; // path /WEB-INF/jsp/menu.jsp
     }
 
     @RequestMapping("/details/{id}") // This maps to the URL http://localhost:8080/products/details/{id}
