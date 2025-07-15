@@ -1,0 +1,93 @@
+/* General Styling for Form Elements */
+form {
+    width: 50%;
+    margin: 0 auto;
+    /* Center the form on the page */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for input fields, select dropdowns, and textareas */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    /* Extra padding for potential icon placement */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    /* Rounded corners */
+    box-sizing: border-box;
+
+     /* TODO 2 - add a light gray background color with #f3f3f3 color code */
+    background-color: #f3f3f3;
+    /* Light background color */
+    font-size: 16px;
+}
+
+/* Styling for Radio and Checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Arrange Radio Buttons and Checkboxes on a Single Line */
+.inline-input,
+.inline-label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Styling for Select Dropdown */
+select {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #f0f8ff;
+}
+
+/* Hover and Focus Effects */
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #e9f1fb;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #ff6666;
+}
+
+button[type="reset"]:hover {
+    background-color: #cc0000;
+}
