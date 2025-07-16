@@ -12,10 +12,12 @@ Every module features a **GradedLab** or lastLab that tests the concepts covered
 
 ### Final Lab - Java Book Search Engine
 
-This project is a console-based Java application that simulates a basic search engine for a digital library. It allows users to search, view, sort, and manage a collection of books stored in a text file. The project integrates key programming concepts such as file I/O, data structures, sorting/searching algorithms, user interfaces, logging, and serialization. **Key tasks: implementing the Linear Search and Bubble Sort.**
+This project is a console-based Java application that simulates a basic search engine for a digital library. It allows users to search, view, sort, and manage a collection of books stored in a text file. The project integrates key programming concepts such as file I/O, data structures, sorting/searching algorithms, user interfaces, logging, and serialization. 
+
+**Key tasks: implementing the Linear Search and Bubble Sort.**
 
 
-### Topic covered
+### ✅ Topic covered
 
 - **Data-Structures:** Array, LinkedList, Hash Map, LinkedHasMap, Tree Map
 - **Basic Sorting:** Bubble Sort, Insertion Sort, Selection Sort
