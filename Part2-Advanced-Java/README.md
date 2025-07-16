@@ -1,6 +1,6 @@
 ## Programming with Java
 
-___
+
 
 ### Structure of course
 
@@ -13,12 +13,16 @@ Part2-Programming with Java/
 Every module features a **graded lab** that tests the concepts covered. 
 It marked inside each folders as a ...GradedLab or finalLab.
 
-The Module 4 it is the **final graded project**, usually made up of several coding challenges
-to apply everything you've learned. 
+___
+
+**Final Lab – Java Animal Data Serialization**
+This project is a console-based Java application that extends a previous animal classification program by adding file I/O and serialization. It allows users to save and load data for Tiger, Penguin, and Dolphin objects, making the data persistent across sessions.
+
+**Key tasks: making classes serializable, overriding toString(), implementing save/load methods for each animal, and enhancing the menu with data persistence options.**
 
 ___
 
-### Topic covered
+### ✅ Topic covered
 
 - **Advanced OPP:** Interfaces, Composition
 - **Error-Handling:** Exception, try-catch-finally system
