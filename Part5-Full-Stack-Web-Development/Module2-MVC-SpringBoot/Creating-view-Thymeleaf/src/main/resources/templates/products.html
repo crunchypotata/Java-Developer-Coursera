@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products List</title>
+    <link rel="stylesheet" href="/css/product-styles.css">
+</head>
+<body>
+    <h1>Available Products</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--TODO 5: Use Thymeleaf syntax with tr tag to iterate over the "products" list passed by the controller-->
+        <tr th:each="product : ${products}">
+            <!--TODO 6: Add a <td> tag for each product attribute to display the product ID, name, description, and price-->
+            <td th:text="${product.id}"></td>
+            <td th:text="${product.name}"></td>
+            <td th:text="${product.description}"></td>
+            <td th:text="${product.price}"></td>
+            <!-- Add the rest... -->
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
