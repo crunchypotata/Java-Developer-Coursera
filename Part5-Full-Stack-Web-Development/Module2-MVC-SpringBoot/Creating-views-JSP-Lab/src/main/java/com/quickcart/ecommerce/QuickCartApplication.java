@@ -1,16 +1,12 @@
-package com.coffeshop.menu;
+package com.quickcart.ecommerce;
 
-import com.coffeshop.menu.model.Product;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoffeeshopMenuApplication {
-
+public class QuickCartApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoffeeshopMenuApplication.class, args);
+		SpringApplication.run(QuickCartApplication.class, args);
 	}
-
-
 }

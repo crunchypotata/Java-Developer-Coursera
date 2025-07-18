@@ -27,13 +27,6 @@ public class ProductController {
     }
 
 
-//    public String listProducts() {
-//        String productDisplay = "<strong>Product List:</strong> <hr>";
-//        for (Product product : productsList) {
-//            productDisplay += "Product: " + product.getId() + " - " + product.getName() + " - $" + product.getPrice() + "<br>";
-//        }
-//        return productDisplay;
-//    }
     @RequestMapping("/list")
     public String listProducts(Model productListModel) {
         productListModel.addAttribute("products", productsList);
