@@ -1,9 +1,20 @@
 package com.quickcart.ecommerce.model;
 
+import jakarta.persistence.*;
+import org.antlr.v4.runtime.misc.NotNull;
+
+@Entity
+@Table(name= "Products")
 public class Product {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY )
     private int id;
+
+    @NotNull(message = "Product name is required")
+    @Size(min=2, max=50, message = "Product name must be between 2 and 50 characters")
     private String name;
+
     private String description;
     private double price;
 
