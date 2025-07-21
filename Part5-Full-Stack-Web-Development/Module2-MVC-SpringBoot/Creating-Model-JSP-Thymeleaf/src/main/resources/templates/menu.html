@@ -6,23 +6,24 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
   <body>
-    <h1>
-      Welcome to the Coffee Shop!
-    </h1>
-    <h2>
-      Our Menu
-    </h2>
+  <div align="center">
+    <h1>Welcome to the Coffee Shop!</h1>
+    <h2>Our Menu</h2>
     <table>
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Price</th>
-      </tr>
+      <thread>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+      </thread>
       <tr th:each="product : ${products}">
         <td th:text="${product.id}"></td>
         <td th:text="${product.name}"></td>
         <td th:text="${product.price}"></td>
       </tr>
     </table>
+    <a th:href="@{/showNewProductForm}" class="button">Order Now</a>
+  </div>
   </body>
 </html>
