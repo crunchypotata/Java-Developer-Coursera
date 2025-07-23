@@ -38,3 +38,13 @@ tr:hover {
     background-color: #f1f1f1;
     cursor: pointer;
 }
+
+/* Style Add anchor as button */
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6272a4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}

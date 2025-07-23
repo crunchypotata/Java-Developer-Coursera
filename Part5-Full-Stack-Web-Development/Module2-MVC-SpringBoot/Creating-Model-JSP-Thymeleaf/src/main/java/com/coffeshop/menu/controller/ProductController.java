@@ -34,39 +34,18 @@ public class ProductController {
         return "redirect:/"; // Redirect to the home page after saving
     }
 
-
-//@Controller
-//@RequestMapping("/products")
-//public class ProductController {
-//    private List<Product> productsList = List.of(
-//            new Product(1, "Espresso", 2.50),
-//            new Product(2, "Latte", 3.50),
-//            new Product(3, "Croissant", 2.00),
-//            new Product(4, "Chocolate Muffin", 2.25),
-//            new Product(5, "Americano", 2.75)
-//    );
-//
-//    @RequestMapping("/") // This maps to the URL http://localhost:8080/products/
-//    @ResponseBody
-//    public String home() {
-//        return "Welcome to the Coffee Shop!";
-//    }
-
-
-//    @RequestMapping("/list")
-//    public String listProducts(Model productListModel) {
-//        productListModel.addAttribute("products", productsList);
-//        return "menu"; // path /WEB-INF/jsp/menu.jsp
-//    }
-//
-//    @RequestMapping("/details/{id}") // This maps to the URL http://localhost:8080/products/details/{id}
-//    @ResponseBody
-//    public String getProductDetailsByID(@PathVariable int id){
-//        for (Product product : productsList) {
-//            if (product.getId() == id) {
-//                return "<strong>Requested Product Details: </strong> <hr> Product ID: " + product.getId() + "<br> Name: " + product.getName() + "<br> Price: $" + product.getPrice();
-//            }
-//        }
-//        return "Product not found!";
-//    }
+    @GetMapping("/showFormForUpdate/{id}")
+    //TODO 11: Use @PathVariable in method argument to id from thyme leaf tag
+    public String showFormForUpdate(@PathVariable int id, Model model) {
+    //TODO 12: get product from the service
+        Product product = productService.getProductById(id);
+    //TODO 13: set product as a model attribute to pre-populate the form
+        model.addAttribute("product", product);
+        return "update-product";
+    }
+    @GetMapping("/deleteProduct/{id}")
+    public String deleteProduct(@PathVariable int id) {
+        productService.deleteProductById(id);
+        return "redirect:/"; // Redirect to the home page after deletion
+    }
 }

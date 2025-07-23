@@ -15,15 +15,19 @@
           <th>ID</th>
           <th>Name</th>
           <th>Price</th>
+          <th>Actions</th>
         </tr>
       </thread>
       <tr th:each="product : ${products}">
         <td th:text="${product.id}"></td>
         <td th:text="${product.name}"></td>
         <td th:text="${product.price}"></td>
+        <td><a th:href="@{/showFormForUpdate/{id}(id=${product.id})}" class="button">Update</a>
+          <a th:href="@{/deleteProduct/{id}(id=${product.id})}" class="button">Delete</a>
+        </td>
       </tr>
     </table>
-    <a th:href="@{/showNewProductForm}" class="button">Order Now</a>
+    <a th:href="@{/showNewProductForm}" class="button">Add menu item</a>
   </div>
   </body>
 </html>

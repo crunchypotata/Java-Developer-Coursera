@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Product in the Menu</title>
+    <link rel="stylesheet" href="/css/add-product-styles.css">
+</head>
+<body>
+<h1>Update Item in Menu</h1>
+<hr>
+<form action="#" th:action="@{/saveProduct}" th:object="${product}" method="post">
+
+    <!--TODO 15: add a hidden input field to keep track of id-->
+    <input type="hidden" th:field="*{id}" />
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" th:field="*{name}"><br>
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" th:field="*{price}" step="0.01"><br>
+
+    <button type="submit">Update Item</button>
+</form>
+</body>
+</html>

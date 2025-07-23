@@ -11,6 +11,4 @@ public class CoffeshopMenuApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CoffeshopMenuApplication.class, args);
 	}
-
-
 }

@@ -1,0 +1,53 @@
+/* styles for the add-new-product */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #5a5a5a;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #6272a4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #5a5a5a;
+}
+
+.error {
+    color: #d9534f !important; /* Red color for error */
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 5px;
+}

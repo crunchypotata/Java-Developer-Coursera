@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>Coffee Shop Menu</title>
-  <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <title>
+        Add New Product to the Menu
+    </title>
+    <link rel="stylesheet" href="/css/add-product-styles.css">
 </head>
-  <body>
+<body>
+<h1>
+    Add A New Item to Menu
+</h1>
+<hr>
   <form action="#" th:action="@{/saveProduct}" th:object="${product}" method="post">
-
           <label for="name">Name:</label>
           <input type="text" id="name" th:field="*{name}"><br>
           <label for="price">Price:</label>
-          <input type="number" id="price" th:field="*{price}">
+          <input type="number" id="price" th:field="*{price}" step="0.01">
           <button type="submit">Add Product</button>
   </form>
   </body>
