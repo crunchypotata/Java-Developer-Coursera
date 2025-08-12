@@ -26,10 +26,10 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.ignoringRequestMatchers("/products/**"))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/register", "/login").permitAll()   // публичные страницы
-                        .requestMatchers("/admin/**").hasRole("ADMIN")        // только ADMIN
-                        .requestMatchers("/user/**").hasRole("USER")          // только USER
-                        .requestMatchers("/products/**").authenticated()      // продукты — любой вошедший
+                        .requestMatchers("/register", "/login").permitAll()   // public access
+                        .requestMatchers("/admin/**", "/actuator/**").hasRole("ADMIN")        // only ADMIN can access Admin pages
+                        .requestMatchers("/user/**").hasRole("USER")          // only USER can access User pages
+                        .requestMatchers("/products/**").authenticated()
                         .anyRequest().authenticated()
                 )
                 .httpBasic(Customizer.withDefaults())                     // Basic Auth для API
