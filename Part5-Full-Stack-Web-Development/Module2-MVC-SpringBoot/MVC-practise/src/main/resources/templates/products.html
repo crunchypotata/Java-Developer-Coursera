@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Products</title>
+    <style>
+        body { font-family: sans-serif; max-width: 960px; margin: 24px auto; }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top; }
+        a.button { padding: 8px 12px; background: #eee; border-radius: 6px; text-decoration: none; }
+        .desc { max-width: 520px; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Products</h1>
+    <a class="button" th:href="@{/products/add}">Add product</a>
+</header>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="p : ${products}">
+        <td th:text="${p.id}">1</td>
+        <td th:text="${p.name}">Sample</td>
+        <td th:text="${#numbers.formatDecimal(p.price, 1, 'COMMA', 2, 'POINT')}">0.00</td>
+        <td class="desc" th:text="${p.description}">—</td>
+    </tr>
+    <tr th:if="${#lists.isEmpty(products)}">
+        <td colspan="4">No products yet.</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

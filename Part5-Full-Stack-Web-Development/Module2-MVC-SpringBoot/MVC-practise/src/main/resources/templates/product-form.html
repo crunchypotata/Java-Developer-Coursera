@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title th:text="${product.id} == null ? 'Add product' : 'Edit product'">Product form</title>
+  <style>
+    body { font-family: sans-serif; max-width: 720px; margin: 24px auto; }
+    form { display: grid; gap: 12px; }
+    label { display: grid; gap: 6px; }
+    input[type="text"], input[type="number"], textarea { padding: 8px; }
+    textarea { min-height: 100px; }
+    .actions { display: flex; gap: 12px; margin-top: 8px; }
+    a, button { padding: 8px 12px; text-decoration: none; }
+  </style>
+</head>
+<body>
+<h1 th:text="${product.id} == null ? 'Add product' : 'Edit product'">Product</h1>
+
+<form th:object="${product}"
+      th:action="${product.id} == null ? @{/products/add} : @{/products/{id}/edit(id=${product.id})}"
+      method="post">
+
+  <label>
+    Name
+    <input type="text" th:field="*{name}" placeholder="Name" required/>
+    <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
+  </label>
+
+  <label>
+    Price
+    <input type="number" th:field="*{price}" step="0.01" min="0" placeholder="0.00" required/>
+    <span th:if="${#fields.hasErrors('price')}" th:errors="*{price}"></span>
+  </label>
+
+  <label>
+    Description
+    <textarea th:field="*{description}" placeholder="Description"></textarea>
+    <span th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></span>
+  </label>
+
+  <div class="actions">
+    <button type="submit" th:text="${product.id} == null ? 'Create' : 'Save'">Save</button>
+    <a th:href="@{/products}">Cancel</a>
+  </div>
+</form>
+</body>
+</html>
