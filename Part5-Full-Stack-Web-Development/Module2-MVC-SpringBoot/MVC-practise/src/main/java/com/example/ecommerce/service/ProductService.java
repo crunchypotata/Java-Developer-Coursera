@@ -2,17 +2,22 @@ package com.example.ecommerce.service;
 
 import com.example.ecommerce.model.Product;
 import com.example.ecommerce.repository.ProductRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Optional;
 import java.util.List;
 
+import static org.springframework.http.HttpStatus.NOT_FOUND;
+
 @Service
 public class ProductService {
 
-    @Autowired
-    private ProductRepository productRepository;
+    private final ProductRepository productRepository;
+
+    public ProductService(ProductRepository productRepository) {
+        this.productRepository = productRepository;
+    }
 
     public Product save(Product product) {
         return productRepository.save(product);
@@ -35,7 +40,8 @@ public class ProductService {
                 .map(product -> {
                     product.setName(updatedProduct.getName());
                     product.setPrice(updatedProduct.getPrice());
+                    product.setDescription(updatedProduct.getDescription());
                     return productRepository.save(product);
-                }).orElse(null);
+                }).orElseThrow(() -> new ResponseStatusException(NOT_FOUND, "Product not found: " + id));
     }
 }

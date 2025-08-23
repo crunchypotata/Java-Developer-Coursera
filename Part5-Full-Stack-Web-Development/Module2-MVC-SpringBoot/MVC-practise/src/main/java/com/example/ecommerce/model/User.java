@@ -50,7 +50,7 @@ public class User {
         return role;
     }
 
-    public void setRole(String email) {
+    public void setRole(String role) {
         this.role = role;
     }
 }

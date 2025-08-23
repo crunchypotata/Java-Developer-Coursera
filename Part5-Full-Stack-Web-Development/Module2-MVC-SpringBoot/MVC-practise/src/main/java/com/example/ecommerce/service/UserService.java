@@ -12,11 +12,10 @@ import java.util.Optional;
 @Service
 public class UserService {
 
-    @Autowired
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
 
-    public UserService(PasswordEncoder passwordEncoder) {
+    public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
     }
@@ -27,10 +26,10 @@ public class UserService {
             User admin = new User();
             admin.setUsername("admin");
             admin.setPassword(passwordEncoder.encode("admin123"));
-            admin.setRole("ADMIN"); // без префикса ROLE_
+            admin.setRole("ADMIN");
             userRepository.save(admin);
         }
-        // user / USER
+
         if (!userRepository.existsByUsername("user")) {
             User regular = new User();
             regular.setUsername("user");
@@ -41,9 +40,9 @@ public class UserService {
     }
 
     public void registerUser(User user) {
-        // Encode the password before saving
+
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        return userRepository.save(user);
+        userRepository.save(user);
     }
 
     public Optional<User> findByUsername(String username) {

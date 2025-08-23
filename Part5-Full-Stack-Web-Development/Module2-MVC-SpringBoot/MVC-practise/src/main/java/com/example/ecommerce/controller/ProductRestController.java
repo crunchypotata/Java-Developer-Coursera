@@ -2,7 +2,6 @@ package com.example.ecommerce.controller;
 
 import com.example.ecommerce.model.Product;
 import com.example.ecommerce.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
@@ -10,11 +9,14 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping("/products/api")
 public class ProductRestController {
 
-    @Autowired
-    private ProductService productService;
+    private final ProductService productService;
+
+    public ProductRestController(ProductService productService) {
+        this.productService = productService;
+    }
 
     @GetMapping
     public List<Product> getAllProducts() {

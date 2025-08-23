@@ -2,7 +2,6 @@ package com.example.ecommerce.controller;
 
 import com.example.ecommerce.model.Product;
 import com.example.ecommerce.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -11,8 +10,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/products")
 public class ProductController {
 
-    @Autowired
-    private ProductService productService;
+    private final ProductService productService;
+    public ProductController(ProductService productService) {
+        this.productService = productService;
+    }
 
     @GetMapping
     public String listProducts(Model model) {
