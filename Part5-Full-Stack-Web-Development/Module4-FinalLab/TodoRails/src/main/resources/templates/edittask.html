@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task :: ToDo Rails</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}">
+    <link rel="stylesheet" th:href="@{/css/menu.css}">
+    <link rel="stylesheet" th:href="@{/css/edittask.css}">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Include the Sidebar Menu -->
+    <div th:replace="~{fragments/menu :: menu}"></div>
+
+    <!-- Header Section -->
+    <div class="header" th:fragment="header">
+        <div class="logo-section">
+            <img th:src="@{/images/logo.png}" alt="ToDo Rails Logo" class="logo">
+            <div class="text-section">
+                <h1>ToDo Rails</h1>
+                <p>Keep Your Goals on Track</p>
+            </div>
+
+            <div class="heading-section">
+                <img th:src="@{/images/edit.png}"/>
+                Edit TODO
+            </div>
+        </div>
+        <div class="auth-links">
+            <a th:href="@{/logout}">Logout</a>
+        </div>
+    </div>
+
+    <!-- Main Content for Edit Task Page -->
+    <div class="container">
+        <h2>Edit TODO Task</h2>
+
+        <!-- Error (from server) -->
+        <div th:if="${errorMessage}" class="client-alert flash-alert-danger">
+            <p th:text="${errorMessage}"></p>
+        </div>
+
+        <!-- Error messages display container -->
+        <div id="error-messages-client" class="client-alert flash-alert-danger" style="display: none;">
+            <h2>Please correct the following errors:</h2>
+            <ul id="error-list"></ul>
+        </div>
+
+
+        <!-- Task Form, bound to Task model -->
+        <form action="/updatetask" method="post" th:object="${task}" class="task-form" onsubmit="return validateForm()">
+            <input type="hidden" id="id" th:field="*{id}">
+
+            <label for="todoName">TODO Name</label>
+            <input type="text" id="todoName" th:field="*{title}" placeholder="Name here...">
+            <p class="error-message" id="todoNameError"></p>
+
+            <!-- Description -->
+            <label for="description">TODO Task Description</label>
+            <textarea id="description" th:field="*{description}" placeholder="Description here..." rows="4"></textarea>
+            <p class="error-message" id="descriptionError"></p>
+
+            <!-- Priority -->
+            <label for="priority">Priority</label>
+            <select id="priority" th:field="*{priority}">
+                <option value="">Select Priority</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <p class="error-message" id="priorityError"></p>
+
+            <!-- Due Date -->
+            <label for="dueDate">Due Date </label>
+            <input type="date" id="dueDate" th:field="*{dueDate}" placeholder="YYYY-MM-DD">
+            <p class="error-message" id="dueDateError"></p>
+
+            <!-- Type -->
+            <label for="type">Type</label>
+            <select id="type" th:field="*{type}">
+                <option value="">Select Type</option>
+                <option value="official">Official</option>
+                <option value="family">Family</option>
+                <option value="personal">Personal</option>
+            </select>
+            <p class="error-message" id="typeError"></p>
+
+            <!-- Buttons -->
+            <div class="button-group">
+                <button type="submit" class="btn btn-update">Update Task</button>
+                <button type="button" id="btn-cancel" class="btn btn-cancel" onclick="window.location='/dashboard'">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Include the footer (same as index.html) -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+</div>
+<script th:src="@{/js/menu.js}"></script>
+<script th:src="@{/js/addtask.js}"></script>
+</body>
+</html>

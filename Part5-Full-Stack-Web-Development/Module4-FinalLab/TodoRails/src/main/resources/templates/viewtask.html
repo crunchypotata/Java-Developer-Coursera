@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard :: ToDo Rails</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}">
+    <link rel="stylesheet" th:href="@{/css/menu.css}">
+    <link rel="stylesheet" th:href="@{/css/viewtask.css}">
+</head>
+<body>
+<div class="wrapper">
+    <!-- Include the Sidebar Menu -->
+    <div th:replace="~{fragments/menu :: menu}"></div>
+
+    <!-- Header Section -->
+    <div class="header" th:fragment="header">
+        <div class="logo-section">
+            <img th:src="@{/images/logo.png}" alt="ToDo Rails Logo" class="logo">
+            <div class="text-section">
+                <h1>ToDo Rails</h1>
+                <p>Keep Your Goals on Track</p>
+            </div>
+            <div class="heading-section">
+                <img th:src="@{/images/task.png}"/>
+                TODO Details
+            </div>
+        </div>
+        <div class="auth-links">
+            <a th:href="@{/logout}">Logout</a>
+        </div>
+    </div>
+
+    <!-- Main Content for Task View -->
+    <div class="container">
+        <div th:if="${task != null}">
+            <h2>Task Details</h2>
+            <p><strong>Title:</strong> <span th:text="${task.title != null ? task.title : 'NA'}"></span></p>
+            <p><strong>Description:</strong> <span th:text="${task.description != null ? task.description : 'NA'}"></span></p>
+            <p><strong>Priority:</strong> <span th:text="${task.priority != null ? task.priority : 'NA'}"></span></p>
+            <p><strong>Due Date:</strong> <span th:text="${task.dueDate != null ? task.dueDate : 'NA'}"></span></p>
+            <p><strong>Type:</strong> <span th:text="${task.type != null ? task.type : 'NA'}"></span></p>
+            <p><strong>Added Date:</strong> <span th:text="${task.dateAdded != null ? task.dateAdded : 'NA'}"></span></p>
+
+            <p>
+                <strong>Completed:</strong>
+                <!-- TODO 17: add a "${th:text="${task.completed ? 'Yes' : 'No'}"
+                                attribute to the span element below
+                                to display
+                                "Yes" if the task completion status is true and
+                                "No" if the task completion status is false
+                                by using the ternary operator.
+                          -->
+
+                <!-- TODO 19: ensure that the correct class of "task-status.completed"
+                            or "task-status.pending" is applied using the "th:class"
+                            along with the ternary operator on "task.completed"
+                           -->
+                <span ></span>
+                
+            </p>
+
+            <p><strong>Completion Date:</strong> <span th:text="${task.completionDate != null ? task.completionDate : 'NA'}"></span></p>
+
+            <!-- Action Buttons -->
+            <div class="button-group">
+                    <div th:if="${!task.completed}">
+
+                        <form th:action="@{/task/markDone}" method="post" style="display:inline;">
+                            <input type="hidden" name="taskId" th:value="${task.id}" />
+                            <button type="submit" class="btn btn-done">Mark Done</button>
+                        </form>
+
+                        <form th:action="@{/task/edittask}" method="post" style="display:inline;">
+                            <input type="hidden" name="taskId" th:value="${task.id}" />
+                            <button type="submit" class="btn btn-edit">Edit Task</button>
+                        </form>
+
+                        <button type="button" id="btn-cancel" class="btn btn-cancel" onclick="window.location='/dashboard'">Cancel</button>
+
+                    </div>
+
+                    <div th:if="${task.completed}">
+                        <button type="button" id="btn-cancel" class="btn btn-cancel" onclick="window.location='/dashboard'">Go back to Dashboard</button>
+                    </div>
+            </div>
+        </div>
+
+        <div th:if="${task == null}">
+            <h2>No Task to Display</h2>
+            <a th:href="@{/dashboard}" class="btn btn-back">Back to Dashboard</a>
+        </div>
+    </div>
+
+    <!-- Include the footer (same as index.html) -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+</div>
+<script th:src="@{/js/menu.js}"></script>
+</body>
+</html>

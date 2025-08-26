@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ToDo Rails</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/terms.css}">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Header Section -->
+    <div class="header" th:fragment="header">
+        <div class="logo-section">
+            <img th:src="@{/images/logo.png}" alt="ToDo Rails Logo" class="logo">
+            <div class="text-section">
+                <h1>ToDo Rails</h1>
+                <p>Keep Your Goals on Track</p>
+            </div>
+        </div>
+        <div class="auth-links">
+            <a th:href="@{/}">Home</a> | <a th:href="@{/login}">Login</a>&nbsp;|&nbsp;<a th:href="@{/register}">Register</a>
+        </div>
+    </div>
+
+    <!-- Main Content for Login Page -->
+    <div class="container">
+        <div class="terms-item">
+            <h2>Terms & Conditions</h2>
+            <p>
+                Welcome to ToDo Rails! By using our services, you agree to comply with the following terms and conditions:
+                <ol>
+                    <li>Our platform is provided as-is, without any guarantees of availability, security, or functionality.</li>
+
+            <li>You are responsible for maintaining the confidentiality of your login credentials and for any activity that occurs under your account.</li>
+                </ol>
+            </p>
+            <p>
+                We may modify these terms at any time. Any changes will be posted on this page. Continued use of our services following any updates constitutes acceptance of the revised terms.
+            </p>
+            <p class="non-liability">
+                <strong>Non-Liability Clause:</strong> The developers of ToDo Rails are not liable for any loss or damage arising from the use of the platform. Use ToDo Rails at your own risk.
+            </p>
+        </div>
+    </div>
+
+    <!-- Include the footer (same as index.html) -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+</div>
+</body>
+</html>

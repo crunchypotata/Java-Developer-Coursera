@@ -1,0 +1,330 @@
+/* General Page and Logo Adjustments */
+.logo-section {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Center the dashboard heading */
+.logo-section .heading-section {
+    display: inline-block;
+    margin-left: 20vw;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling for Row A */
+.row-a {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* Fixed height for Row A */
+    height: 200px;
+}
+
+/* General styling for each column in Row A */
+.column {
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Priority Section Heading */
+/* Container for heading and button */
+.priority-heading-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Space between heading and button */
+    margin-bottom: 10px; /* Adds some space below the heading */
+}
+
+
+/* Heading styles */
+.priority-heading {
+    margin: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Specific colors for each priority column */
+.high-priority {
+    /* Red for High Priority */
+    background-color: #c88a8a;
+}
+
+.medium-priority {
+    /* Yellow for Medium Priority */
+    background-color: #d0d063;
+}
+
+.low-priority {
+    /* Green for Low Priority */
+    background-color: #88bf88;
+}
+
+/* Styling for the heading inside each priority column */
+.column-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    /* Light background for separation */
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    /* Divider line */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Container for todos with scroll on overflow */
+.todo-container {
+    overflow-y: auto;
+    /* Fixed height to allow for scrolling */
+    height: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Flex layout for each todo-item to align text on left and buttons on right */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Alternating color effect for todos within each priority */
+.todo-container .todo-item:nth-child(odd) {
+    /* Lighter background for odd rows */
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.todo-container .todo-item:nth-child(even) {
+    /* Slightly darker background for even rows */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Task details aligned to the left */
+.task-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+/* Button group aligned to the right */
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+/* Styling for Done button */
+.btn-done {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.btn-done:hover {
+    background-color: #218838;
+}
+
+/* Styling for Show button */
+.btn-show {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.btn-show:hover {
+    background-color: #e0a800;
+}
+
+
+/* Styling for Row B (My Todo's Section) */
+.row-b {
+    flex: 1;
+    padding: 10px;
+    overflow-x: clip;
+    overflow-y: auto;
+    /* Fill remaining space */
+    min-height: calc(100vh - 500px);
+    background-color: #e1f8ff;
+    border-radius: 25px;
+    border: 1px solid #a2c7d3;
+    margin: 20px;
+}
+
+/* My Todo's container */
+.my-todos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    /* Light border around My Todo's section */
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* Header section for My Todo's */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #98bcdb; /* Light background color for the header */
+    border-bottom: 2px solid #e0e0e0; /* Border below header */
+    border-radius: 10px 10px 0 0;
+}
+
+/* Heading styling inside My Todo's */
+.header-flex h2 {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Add task button styling */
+
+.add-task-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Task list container styling */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Task item styling */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Alternate row styling */
+.alt-row {
+    background-color: rgba(230, 230, 230, 0.9);
+}
+
+
+/* Task information styling */
+.task-info p {
+    margin: 0;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+/* Styling for Delete button */
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Styling for Update button */
+.btn-update {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-update:hover {
+    background-color: #218838;
+}
+
+/* Styling for View button */
+.btn-view {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-view:hover {
+    background-color: #e0a800;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+
+    .logo-section .heading-section {
+        display: none;
+    }
+
+    .row-a {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .column {
+        margin: 10px 10px 10px 5px;
+    }
+
+    .row-b {
+        min-height: 300px;
+        margin-left: 0;
+    }
+
+    .add-task-btn {
+        width: 100%;
+    }
+
+    .task-item .button-group {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Add space between stacked buttons */
+        align-items: stretch; /* Full width for buttons */
+    }
+}

@@ -1,0 +1,118 @@
+/* Sidebar menu styles */
+.sidebar {
+    width: 120px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #004733;
+    height: 100%;
+    padding-top: 20px;
+    transition: left 0.3s;
+    z-index: 100;
+    overflow: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.sidebar ul li a img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Transition for icon resizing */
+}
+
+.sidebar ul li a p {
+    margin: 0;
+    font-size: 14px;
+    transition: font-size 0.3s ease, font-weight 0.3s ease; /* Transition for text size and weight */
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a:active {  /* Hover and tap active state */
+    background-color: #FFA500; /* Light orange on hover and tap */
+    color: #000000; /* Change text color to black */
+}
+
+.sidebar ul li a:hover img,
+.sidebar ul li a:active img {  /* Apply same effect for tap */
+    transform: scale(0.8); /* Reduce icon size by 20% */
+}
+
+.sidebar ul li a:hover p,
+.sidebar ul li a:active p {  /* Apply same effect for tap */
+    font-size: 18px; /* Increase font size by 4px */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    color: #FF9C05;
+    z-index: 101;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+/* Sidebar open state */
+.sidebar.open {
+    left: 0;
+}
+
+/* Change the icon color when menu is open */
+.sidebar.open ~ .menu-icon {
+    color: white; /* White when the menu is open */
+}
+
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .sidebar ul li a {
+        padding: 15px; /* Reduce padding for mobile */
+    }
+
+    .sidebar ul li a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sidebar ul li a p {
+        font-size: 12px; /* Smaller text on mobile */
+    }
+
+    /* Add :active state for mobile tap interaction */
+    .sidebar ul li a:active {
+        background-color: #FFA500;
+        color: #000000;
+    }
+
+    .sidebar ul li a:active img {
+        transform: scale(0.8); /* Apply image scaling on tap */
+    }
+
+    .sidebar ul li a:active p {
+        font-size: 18px; /* Increase font size on tap */
+        font-weight: bold; /* Bold text on tap */
+    }
+}

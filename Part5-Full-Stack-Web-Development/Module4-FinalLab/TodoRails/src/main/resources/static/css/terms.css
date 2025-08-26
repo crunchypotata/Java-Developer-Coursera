@@ -1,0 +1,66 @@
+/* Terms and Conditions Container */
+.terms-item {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #E8F8FD;  /* Light background */
+    border: 2px solid #F0D6AF;  /* Soft orange border */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+    text-align: justify;
+    transition: all 0.3s ease-in-out;  /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.terms-item:hover {
+    background-color: #E6F7F9;  /* Light blue background on hover */
+    border: 2px solid #FFB84D;  /* Deepen the orange */
+    transform: scale(1.02);  /* Slight scale-up on hover */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);  /* Darker shadow on hover */
+}
+
+/* Heading */
+.terms-item h2 {
+    color: #0F515C;  /* Darker green */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+.terms-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #004733;  /* Dark green text */
+}
+
+/* Non-Liability Clause */
+.terms-item p strong {
+    color: #DC3545;  /* Red color for emphasis */
+}
+
+.terms-item ol li {
+    margin: 20px 10px;
+}
+
+.terms-item .non-liability {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Responsive layout adjustments for mobile */
+@media (max-width: 768px) {
+    .terms-item {
+        width: 90%;
+        padding: 15px;  /* Reduce padding for mobile */
+        margin: 70px auto;  /* Less margin on mobile */
+    }
+
+    .terms-item h2 {
+        font-size: 22px;
+    }
+
+    .terms-item p {
+        font-size: 14px;  /* Slightly smaller text on mobile */
+    }
+}

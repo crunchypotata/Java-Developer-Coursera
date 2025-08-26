@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - ToDo Rails</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/register.css}">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Header Section -->
+    <div class="header" th:fragment="header">
+        <div class="logo-section">
+            <img th:src="@{/images/logo.png}" alt="ToDo Rails Logo" class="logo">
+            <div class="text-section">
+                <h1>ToDo Rails</h1>
+                <p>Keep Your Goals on Track</p>
+            </div>
+        </div>
+        <div class="auth-links">
+            <a th:href="@{/}">Home</a>
+        </div>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="container registration-container">
+        <h1>Create an Account</h1>
+
+
+        <div id="error-messages-client" class="client-alert flash-alert-danger" style="display: none;">
+            <h2>Please correct the following errors:</h2>
+            <ul id="error-list"></ul>
+        </div>
+
+        <!-- Flash Message Box (Server-side) -->
+        <div th:if="${errorMessage}" class="flash-alert flash-alert-danger">
+            <h2 th:text="${errorMessage}"></h2>
+        </div>
+
+        <!-- TODO 3: set action to point to "/register" -->
+        <form method="post" th:object="${user}" onsubmit="return validateForm()" th:action="@{/register}">
+            <!-- Username and Email -->
+            <label for="username">Username:</label>
+            <input id="username" type="text" th:field="*{username}" placeholder="Enter your username" />
+
+            <label for="email">Email:</label>
+
+            <!-- TODO 5: add the th:field="*{email}" attribute to the email <input> field -->
+            <input type="email"  id="email" th:field="*{email}" placeholder="Enter your email" />
+
+            <p class="error-message" th:if="${errorEmailMessage}" ><span th:text="${errorEmailMessage}"></span></p>
+
+            <!-- Password and Confirm Password -->
+            <label for="password">Password:</label>
+            <input id="password" type="password" th:field="*{password}" placeholder="Enter your password" />
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input id="confirmPassword" type="password" placeholder="Confirm your password" />
+
+
+            <!-- Highest Qualification (Dropdown) -->
+            <label for="qualification">Highest Qualification:</label>
+            <select id="qualification" th:field="*{highestQualification}">
+                <option value="graduate" th:selected="${user.highestQualification == 'graduate'}">Graduate</option>
+                <option value="postgraduate" th:selected="${user.highestQualification == 'postgraduate'}">Postgraduate</option>
+                <option value="phd" th:selected="${user.highestQualification == 'phd'}">PhD</option>
+            </select>
+
+            <!-- Hobbies (Checkboxes) -->
+            <label>Hobbies:</label>
+            <label class="padLeft"><input type="checkbox" th:field="*{hobbies}" value="hiking" /> Hiking</label>
+            <label class="padLeft"><input type="checkbox" th:field="*{hobbies}" value="rafting" /> White river rafting</label>
+            <label class="padLeft"><input type="checkbox" th:field="*{hobbies}" value="skydiving" /> Sky diving</label>
+
+            <!-- Terms and Conditions -->
+            <label>
+                By using the service, I confirm to have read and accepted the
+                <a th:href="@{/terms}" target="_blank">terms and conditions</a>
+                and agree to abide them.
+            </label>
+
+            <!-- Register and Cancel Buttons -->
+            <div class="button-group">
+                <button type="submit" class="btn btn-register">Register</button>
+                <button type="reset" class="btn btn-cancel">Cancel</button>
+            </div>
+        </form>
+
+        <p>Already have an account? <a th:href="@{/login}">Login here</a>.</p>
+    </div>
+
+    <!-- Include the footer -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+</div>
+<!-- TODO 4: create a link to the javascript file "/js/register.js". use th:src="@{}" within script tags -->
+
+<script th:src="@{/js/register.js}"></script>
+
+</body>
+</html>

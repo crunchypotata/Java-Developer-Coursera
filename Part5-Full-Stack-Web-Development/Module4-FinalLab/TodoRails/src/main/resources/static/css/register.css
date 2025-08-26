@@ -1,0 +1,122 @@
+/* Registration Form Styles */
+.registration-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 20px;
+    /* Light background color to match theme */
+    background-color: #E8F8FD;
+    border-radius: 10px;
+    /** TODO 6 (a): apply box shadow of 0px 4px 8px
+                    and transparency of 0.1
+     **/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* main heading */
+.registration-container h1 {
+    color: #0F515C;
+    font-size: 24px;
+}
+
+/* Form labels and inputs */
+.registration-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #004733;  /* Dark green text */
+}
+
+.registration-container label.padLeft {
+    padding-left: 30px;
+}
+
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"],
+.registration-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Flexbox structure for radio buttons and checkboxes */
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.registration-container input[type="checkbox"],
+.registration-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Align the buttons at the bottom */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-register {
+    background-color: #007BFF;  /* Blue background for register */
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+}
+
+.btn-cancel {
+    background-color: #DC3545;  /* Red background for cancel */
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+}
+
+/* Align the buttons side by side for desktop */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  /* Space between the buttons */
+}
+
+
+
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .registration-container {
+        width: 90%;
+    }
+
+    .btn {
+        width: 100%;  /* Full width buttons for mobile */
+    }
+
+    /** TODO 6 (b): apply "flex-direction" to "column" for the "button-group" class **/
+    .button-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}

@@ -1,0 +1,282 @@
+/* Common styles */
+
+/* Ensure footer stays at the bottom of the page with Flexbox layout */
+html, body {
+    height: 100%; /* Full height for both html and body */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F0F4F8; /* Light Gray background */
+    color: #004733; /* Dark green text */
+    box-sizing: border-box;
+}
+
+/* Wrapper ensures content takes full height of the page */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of 100% viewport height */
+    background-color: #EEFBFF;
+}
+
+/* Header section */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space out the logo and login links */
+    align-items: center;
+    padding: 20px;
+    background-color: #E8F8FD;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.logo-section .text-section  h1 {
+    margin: 0;
+    color: #004733;
+    font-family:   "Brush Script MT", "Lucida Handwriting", "Comic Sans MS", cursive;
+    font-style: italic;
+    font-size: 27px;
+    padding-bottom: 7px;
+}
+
+.logo-section .text-section p {
+    margin: 0;
+    color: #04A777;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* This ensures the logo section takes as much space as possible */
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: flex-end; /* Align the links to the right */
+    flex-shrink: 0; /* Prevent the links from shrinking */
+}
+
+.auth-links a {
+    margin: 0px 10px; /* Add spacing between the links */
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Horizontal line */
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #FF9C05; /* Orange line separating header */
+}
+
+/* home header */
+.home-header {
+    margin: 2vw;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* home header heading */
+.home-header h2 {
+    color: #0F515C;
+}
+
+/* Float the image to the left */
+.home-header-image {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+    margin-bottom: 20px; /* Clear space at the bottom if text is shorter */
+}
+
+/* Text next to the floating image */
+.home-header-text {
+    text-align: justify;
+}
+
+/* Footer styles */
+footer {
+    background-color: #063519; /* Dark green */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto; /* Push footer to the bottom if content is less */
+}
+
+footer p {
+    color: #E4FBF4;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 30px;
+}
+
+.feature-item {
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 30px;
+    margin-right: 20px;
+    text-align: center;
+    border: 2px solid #F0D6AF; /* Softer orange than hr */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+
+}
+
+.feature-item:hover {
+    background-color: #E6F7F9; /* Light blue background on hover */
+    border: 2px solid #FFB84D;  /* Deepen the orange */
+    transform: scale(1.02); /* Slight scale-up on hover */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.feature-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    color:#0F515C;
+}
+
+.feature-item-highlight {
+    color: #04559D;
+    font-weight: bold;
+    transition: transform 0.5s ease, font-size 0.5s ease; /* Add smooth transition to the text */
+}
+
+.feature-item:hover .feature-item-highlight {
+    transform: scale(1.2); /* Grow the text when hovering over the feature item */
+    font-size: 18px; /* Increase font size */
+    transition: transform 0.5s ease, font-size 0.5s ease; /* Smooth transition when hover ends */
+}
+
+.feature-item div.feature-item-text {
+    text-align: justify;
+    padding: .7vw;
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 768px) {
+    .container {
+        width: calc(100% - 200px); /* Adjust width for sidebar */
+    }
+
+    .home-header {
+        margin: 15px;
+    }
+
+    .features {
+        flex-wrap: nowrap;
+    }
+
+    .feature-item {
+        width: 30%;
+    }
+
+    /* Header adjustment for larger screens */
+    .logo {
+        margin-left: 0;
+    }
+
+    .auth-links {
+        margin-right: 100px; /* Align links with padding */
+    }
+}
+
+
+
+/* for flash messages */
+.flash-alert {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease-in-out;
+}
+
+.flash-alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.flash-alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.flash-alert:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+}
+
+
+.client-alert {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left:10px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.10);
+}
+
+.client-alert  .error-heading {
+    text-align: left;
+    color: #721C24;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.client-alert ul li {
+    font-family: monotype;
+    margin-top: 5px;
+}
+
+/* Error styling */
+.error-message {
+    color: #721C24;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+    .header .text-section h1 {
+        font-size: 20px;
+    }
+
+    .logo-section .text-section p {
+        font-size: 11px;
+    }
+}

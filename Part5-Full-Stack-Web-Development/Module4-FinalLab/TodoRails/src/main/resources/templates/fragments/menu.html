@@ -1,0 +1,32 @@
+<!-- fragments/menu.html -->
+<nav th:fragment="menu">
+    <div class="sidebar" id="sidebarMenu">
+        <ul>
+            <li>
+                <a href="/dashboard">
+                    <img th:src="@{/images/task.png}" alt="Dashboard Icon">
+                    <p>Dashboard</p>
+                </a>
+            </li>
+            <li>
+                <a href="/addtask">
+                    <img th:src="@{/images/add.png}" alt="Add TODO">
+                    <p>Add TODO</p>
+                </a>
+            </li>
+            <li>
+                <a href="/changepasswd">
+                    <img th:src="@{/images/change_passwd.png}" alt="Change Password">
+                    <p>Change Password</p>
+                </a>
+            </li>
+            <li>
+                <a href="/logout">
+                    <img th:src="@{/images/logout.png}" alt="Logout">
+                    <p>Logout</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">&#9776;</div>
+</nav>

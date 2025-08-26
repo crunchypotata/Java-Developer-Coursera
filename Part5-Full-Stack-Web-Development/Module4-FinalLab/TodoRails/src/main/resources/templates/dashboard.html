@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard :: ToDo Rails</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/menu.css}">
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Include the Sidebar Menu -->
+    <div th:replace="~{fragments/menu :: menu}"></div>
+
+    <!-- Header Section -->
+    <div class="header" th:fragment="header">
+        <div class="logo-section">
+            <img th:src="@{/images/logo.png}" alt="ToDo Rails Logo" class="logo">
+            <div class="text-section">
+                <h1>ToDo Rails</h1>
+                <p>Keep Your Goals on Track</p>
+            </div>
+
+            <div class="heading-section">
+                <img th:src="@{/images/task.png}"/>
+                Dashboard
+
+                <br/>
+
+                <span style="font-size: 12px;">
+
+                     <span style="color: #007bff;"> Server Date:</span>
+
+                    <!-- TODO 15: add a th:text to the span below to display the attribute "serverTime",
+                                which you sent from the server in
+                                TODO 14.
+                     -->
+                    <span></span>
+
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="auth-links">
+            <!-- TODO 24: add the hyperlink to point to "/logout" using either th:href or href -->
+            <a >Logout</a>
+        </div>
+    </div>
+
+    <!-- Main Content for Login Page -->
+    <div class="container">
+            <!-- flash messages (from server) -->
+            <div style="margin-left: 5vw">
+                <div th:if="${errorMessage}" class="flash-alert flash-alert-danger">
+                    <p th:text="${errorMessage}"></p>
+                </div>
+
+                <div th:if="${successMessage}" class="flash-alert flash-alert-success">
+                    <p th:text="${successMessage}"></p>
+                </div>
+            </div>
+
+
+
+
+            <!-- Heading for Priority Section -->
+            <div class="priority-heading-container">
+                <h2 class="priority-heading">TODO Tasks Due Today</h2>
+                <a th:href="@{/addtask}" class="add-task-btn" style="text-decoration: none;">+ Add task</a>
+            </div>
+
+        <!-- Row A -->
+        <div class="row-a">
+
+            <!-- High Priority -->
+            <!-- TODO 13 (b): uncomment lines for "column high-priority" -->
+
+           <div class="column high-priority">
+               <div class="column-heading">High</div>
+               <div class="todo-container">
+                   <div th:if="${#lists.isEmpty(todayTasks.?[priority == 'high'])}">
+                       <p>Nothing to show here...</p>
+                   </div>
+                   <div th:each="task : ${todayTasks}" th:if="${task.priority == 'high'}" class="todo-item">
+                       <div class="task-details">
+                           <strong>Name:</strong> <span th:text="${task.title}">Task Title</span>
+                           <strong>Desc:</strong> <span th:text="${task.shortDescription}"></span>
+                       </div>
+                       <div class="button-group">
+                           <form th:action="@{/task/markDone}" method="post" style="display:inline;">
+                               <input type="hidden" name="taskId" th:value="${task.id}" />
+                               <button type="submit" class="btn btn-done">Done</button>
+                           </form>
+                           <form th:action="@{/task/viewtask}" method="post" style="display:inline;">
+                               <input type="hidden" name="taskId" th:value="${task.id}" />
+                               <button type="submit" class="btn btn-show">Show</button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <!-- End High Priority -->
+
+            <!-- Medium Priority -->
+            <!-- TODO 13 (c): uncomment lines for "column medium-priority" -->
+
+           <div class="column medium-priority">
+               <div class="column-heading">Medium</div>
+               <div class="todo-container">
+                   <div th:if="${#lists.isEmpty(todayTasks.?[priority == 'medium'])}">
+                       <p>Nothing to show here...</p>
+                   </div>
+                   <div th:each="task : ${todayTasks}" th:if="${task.priority == 'medium'}" class="todo-item">
+                       <div class="task-details">
+                           <strong>Name:</strong> <span th:text="${task.title}">Task Title</span>
+                           <strong>Desc:</strong> <span th:text="${task.shortDescription}"></span>
+                       </div>
+                       <div class="button-group">
+                           <form th:action="@{/task/markDone}" method="post" style="display:inline;">
+                               <input type="hidden" name="taskId" th:value="${task.id}" />
+                               <button type="submit" class="btn btn-done">Done</button>
+                           </form>
+                           <form th:action="@{/task/viewtask}" method="post" style="display:inline;">
+                               <input type="hidden" name="taskId" th:value="${task.id}" />
+                               <button type="submit" class="btn btn-show">Show</button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <!-- End Medium Priority -->
+
+            <!-- Low Priority -->
+            <!-- TODO 13 (d): uncomment lines for "column low-priority" -->
+
+           <div class="column low-priority">
+               <div class="column-heading">Low</div>
+               <div class="todo-container">
+                   <div th:if="${#lists.isEmpty(todayTasks.?[priority == 'low'])}">
+                       <p>Nothing to show here...</p>
+                   </div>
+                   <div th:each="task : ${todayTasks}" th:if="${task.priority == 'low'}" class="todo-item">
+                       <div class="task-details">
+                           <strong>Name:</strong> <span th:text="${task.title}">Task Title</span>
+                           <strong>Desc:</strong> <span th:text="${task.shortDescription}"></span>
+                       </div>
+                       <div class="button-group">
+                           <form th:action="@{/task/markDone}" method="post" style="display:inline;">
+                               <input type="hidden" name="taskId" th:value="${task.id}" />
+                               <button type="submit" class="btn btn-done">Done</button>
+                           </form>
+                           <form th:action="@{/task/viewtask}" method="post" style="display:inline;">
+                               <input type="hidden" name="taskId" th:value="${task.id}" />
+                               <button type="submit" class="btn btn-show">Show</button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <!-- End Low Priority-->
+
+        </div>
+        <!-- end of Row A -->
+
+
+        <!-- Row B -->
+        <div class="row-b">
+            <!-- My Todo's Section -->
+            <!-- Header Section -->
+            <div class="header-flex">
+                <h2>My Todo's</h2>
+
+                <div>
+                    <strong>Total tasks: </strong> &nbsp; <span th:text="${completedCount}"></span> &nbsp; completed out of &nbsp;
+                    <span th:text="${pendingCount + completedCount}"></span>
+                </div>
+            </div>
+
+
+            <div class="my-todos">
+
+
+                <!-- Task List -->
+                <div class="task-list">
+                    <div th:if="${#lists.isEmpty(allTasks)}">
+                        <p>Nothing to show here...</p>
+                    </div>
+                    <div th:each="task, stat : ${allTasks}" class="task-item" th:classappend="${stat.index % 2 == 0} ? 'alt-row'">
+                        <div class="task-info">
+                            <p><strong>Title:</strong> <span th:text="${task.title}">Task Title</span></p>
+                            <p><strong>Description:</strong> <span th:text="${task.shortDescription}">Task Description</span></p>
+                            <p>
+                                <strong>Date Added:</strong> <span th:text="${task.dateAdded}">Date Added</span>
+                            </p>
+                            <p>
+                                <strong>Date Due:</strong> <span th:text="${task.dueDate}">Date Due</span>
+                            </p>
+                        </div>
+
+                        <!-- Button Group for Actions -->
+                        <div class="button-group">
+                            <form th:action="@{/task/delete}" method="post" style="display:inline;" onsubmit="return confirmDeleteTask()">
+                                <input type="hidden" name="taskId"  th:value="${task.id}" />
+                                <button type="submit" class="btn-delete" > Delete </button>
+                            </form>
+
+                            <!-- display only if task is not completed -->
+                            <div th:if="${!task.completed}">
+                                <form th:action="@{/task/edittask}" method="post" style="display:inline;">
+                                    <input type="hidden" name="taskId" th:value="${task.id}" />
+                                    <button type="submit" class="btn btn-update">Edit</button>
+                                </form>
+                            </div>
+
+                            <form th:action="@{/task/viewtask}" method="post" style="display:inline;">
+                                <input type="hidden" name="taskId" th:value="${task.id}" />
+                                <button type="submit" class="btn-view">View</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of Row B -->
+
+    </div>
+    <!-- end of container -->
+
+
+    <!-- Include the footer (same as index.html) -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+</div>
+<script th:src="@{/js/menu.js}"></script>
+<script>
+     function confirmDeleteTask() {
+        var result = confirm("Are you sure you want to delete this task? \nThis action cannot be undone.");
+        return (result?true:false);
+    }
+</script>
+</body>
+</html>

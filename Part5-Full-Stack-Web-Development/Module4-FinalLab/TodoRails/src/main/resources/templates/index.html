@@ -1,0 +1,100 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ToDo Rails</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- Header Section -->
+    <div class="header" th:fragment="header">
+        <div class="logo-section">
+            <img th:src="@{/images/logo.png}" alt="ToDo Rails Logo" class="logo">
+            <div class="text-section">
+                <h1>ToDo Rails</h1>
+                <p>Keep Your Goals on Track</p>
+            </div>
+        </div>
+        <div class="auth-links">
+            <a th:href="@{/login}">Login</a>&nbsp;|&nbsp;<a th:href="@{/register}">Register</a>
+        </div>
+
+    </div>
+
+
+
+    <!-- Main Content for Home Page -->
+    <div class="container">
+
+        <div class="home-header">
+            <h2>Why Choose ToDo Rails?</h2>
+            <div>
+                <img th:src="@{/images/whytodorails.png}" alt="Why choose todo rails?" class="home-header-image">
+                <div class="home-header-text">
+                    <p>
+                        ToDo Rails is designed to help you keep your tasks organized and manageable.
+                        Whether it's tracking daily activities, setting long-term goals, or managing
+                        project tasks,
+                        ToDo Rails provides an excellent dashboard where you can customize your
+                        task management experience.
+                    </p>
+                    <p>
+                        We refer to "doto's" as a playful way to describe tasks,
+                        making it more engaging to track progress without feeling overwhelmed by
+                        traditional task labels.
+                        Using ToDo Rails ensures that you stay on top of all your tasks,
+                        with features tailored to prioritize what matters most,
+                        whether you’re on the go or working from any device.
+                    </p>
+
+                    <p>
+                        The system's mobile-friendly interface makes it accessible anytime,
+                        anywhere, helping you manage tasks efficiently on the go.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <!-- Horizontal line separator -->
+            <hr/>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features">
+            <div class="feature-item">
+                <img th:src="@{/images/tracktask.png}" alt="Track your tasks">
+                <h3>Track Your Tasks</h3>
+                <p class="feature-item-highlight">Easily manage your tasks.</p>
+                <div class="feature-item-text">
+                    Stay organized and focused by managing all your tasks in one place. ToDo Rails helps you keep track of everything on your to-do list, ensuring nothing falls through the cracks and you stay productive.
+                </div>
+            </div>
+            <div class="feature-item">
+                <img th:src="@{images/personalizeddashboard.png}" alt="Personalized Dashboard">
+                <h3>Personalized Dashboard</h3>
+                <p class="feature-item-highlight">Customized for you.</p>
+                <div class="feature-item-text">
+                    Your task management, your way. ToDo Rails offers a customizable dashboard tailored to your needs. Easily access and manage tasks that matter most to you, all in one place.
+                </div>
+            </div>
+            <div class="feature-item">
+                <img th:src="@{images/mobile_friendly.png}" alt="Mobile Friendly">
+                <h3>Mobile Friendly</h3>
+                <p class="feature-item-highlight">Access from any device.</p>
+                <div class="feature-item-text">
+                    Take your tasks with you wherever you go. ToDo Rails is optimized for mobile devices, so you can manage your tasks and stay on top of your goals anytime, anywhere.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the footer -->
+    <div th:replace="~{fragments/footer :: footer}"></div>
+</div>
+</body>
+</html>
