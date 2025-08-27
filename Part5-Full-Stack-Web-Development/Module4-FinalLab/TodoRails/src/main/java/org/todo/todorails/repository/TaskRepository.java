@@ -31,4 +31,6 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
      *              or not based on a boolean value passed representing the completion status.
      **/
 
+    int countByCompleted(boolean completed);
+
 }

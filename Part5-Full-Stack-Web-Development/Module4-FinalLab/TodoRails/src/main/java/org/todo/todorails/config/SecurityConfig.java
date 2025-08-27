@@ -31,11 +31,10 @@ public class SecurityConfig {
                         /** TODO 1:  allow access to static resource "/css/**" and
                          *           "/register" without logging in
                          */
-                        .requestMatchers("/css/**", "/register").permitAll()
-                        // allow access to static resources
-                        .requestMatchers("/js/**", "/images/**").permitAll()
+                        .requestMatchers("/js/**", "/images/**" , "/css/**").permitAll()
                         // allow access to register, login, terms and index without logging in
-                        .requestMatchers("/","/login","/terms", "/custom-error").permitAll()
+                        .requestMatchers("/","/login","/terms", "/custom-error",
+                                "/register").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin(form -> form

@@ -66,7 +66,7 @@ public class TaskService {
          *            user object, currentDate object and status of completed status of false.
          *            assign the value returned to the array list taskListForToday.
           **/
-
+        taskListForToday = taskRepository.findByUserAndDueDateAndCompleted(user, currentDate, false);
 
         //return the task list
         return taskListForToday;
@@ -106,7 +106,7 @@ public class TaskService {
         if (task != null && !task.isCompleted()) {
             /** TODO 16: set the task completion status to of the "task" object to true **/
 
-            task.setCompletionDate(LocalDate.now());
+            task.setCompleted(true);
             taskRepository.save(task);
             return true;
         }
@@ -239,7 +239,7 @@ public class TaskService {
          *                tasks based on the completion status from the TaskRespository
          *               which you created in TODO 20 (a)
           **/
-        return 0;
+        return taskRepository.countByCompleted(completedStatus);
 
     }
 }

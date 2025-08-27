@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 600px;
     /** TODO 2: Put margin of 25px on "top" and "bottom" and "auto" on left and right **/
-    margin: 25px auto;
+    margin: 25px auto 25px auto;
 
 
 

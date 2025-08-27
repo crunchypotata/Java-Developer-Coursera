@@ -52,12 +52,16 @@
                                 "No" if the task completion status is false
                                 by using the ternary operator.
                           -->
+                <span th:text="${task.completed ? 'Yes' : 'No'}"></span>
 
                 <!-- TODO 19: ensure that the correct class of "task-status.completed"
                             or "task-status.pending" is applied using the "th:class"
                             along with the ternary operator on "task.completed"
                            -->
-                <span ></span>
+                <span
+                        th:text="${task.completed ? 'Yes' : 'No'}"
+                        th:class="${task.completed ? 'task-status completed' : 'task-status pending'}">
+                </span>
                 
             </p>
 

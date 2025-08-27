@@ -37,7 +37,7 @@
                                 which you sent from the server in
                                 TODO 14.
                      -->
-                    <span></span>
+                    <span th:text="${serverTime}"></span>
 
                 </span>
             </div>
@@ -47,7 +47,7 @@
 
         <div class="auth-links">
             <!-- TODO 24: add the hyperlink to point to "/logout" using either th:href or href -->
-            <a >Logout</a>
+            <a th:href="@{/logout}">Logout</a>
         </div>
     </div>
 
