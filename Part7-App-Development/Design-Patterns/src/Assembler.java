@@ -42,35 +42,31 @@ public class Assembler {
         private String storage;
         private String graphicsCard;
 
-        public setCpu(String cpu) {
+        public Builder setCpu(String cpu) {
             this.cpu = cpu;
             return this;
         }
 
-        public void setRam(String ram) {
+        public Builder setRam(String ram) {
             this.ram = ram;
             return this;
         }
 
-        public void setStorage(String storage) {
+        public Builder setStorage(String storage) {
             this.storage = storage;
             return this;
         }
 
-        public void setGraphicsCard(String graphicsCard) {
+        public Builder setGraphicsCard(String graphicsCard) {
             this.graphicsCard = graphicsCard;
             return this;
         }
 
-
-
-
-
         /* TODO 8: Define build() method that returns an object of Assembler class*/
+        public Assembler build() {
+            return new Assembler(cpu, ram, storage, graphicsCard);
+        }
     }
-
-    }
-
 }
 
 
