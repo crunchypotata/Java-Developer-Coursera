@@ -49,7 +49,19 @@ Course - 🎓 In Progress
 
 📂 [Part5-Full-Stack-Web-Development](./Part5-Full-Stack-Web-Development)
 
-### 6. Generative AI in Software Development 
+### 6. Generative AI in Software Development
+📂 [Part6-GenerativeAI](./Part6-GenerativeAI)
+
+- Amazon Q
+- Decision trees, recommendation app
+- Chat Bots
+
 ### 7. Application Development 
+📂 [Part7-Application-Development](./Part7-Application-Development)
+
+- Design Patterns, UML
+- Clean code
+- JUnit tests
+- Gitflow
 
 Each course includes multiple assignments, **graded labs**, and **final projects** to practice key skills.
