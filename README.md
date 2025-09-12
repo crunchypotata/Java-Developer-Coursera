@@ -57,11 +57,11 @@ Course - 🎓 In Progress
 - Chat Bots
 
 ### 7. Application Development 
-📂 [Part7-Application-Development](./Part7-Application-Development)
+📂 [Part7-Application-Development](./Part7-App-Development)
 
 - Design Patterns, UML
 - Clean code
-- JUnit tests
+- Unit, integration tests
 - Gitflow
 
 Each course includes multiple assignments, **graded labs**, and **final projects** to practice key skills.
