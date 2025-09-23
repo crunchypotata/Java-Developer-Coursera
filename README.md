@@ -38,7 +38,7 @@ This course covers 7 topics:
 - JDBC (SCRUD, ACID, transactions) 
 - JavaFX
 
-📂 [Part4-Database-Management-Java-SQL](./Part4-Database-Management-Java-SQL)
+📂 [Part4-Database-Management-Java-SQL](./Part4-Database-Management-Java-SQL) ✅
 
 ### 5. Full Stack Web Development 
 Course - 🎓 In Progress
@@ -47,7 +47,7 @@ Course - 🎓 In Progress
 - MVC, Spring, Spring Boot
 - RESTful services, AWS
 
-📂 [Part5-Full-Stack-Web-Development](./Part5-Full-Stack-Web-Development)
+📂 [Part5-Full-Stack-Web-Development](./Part5-Full-Stack-Web-Development) ✅ 
 
 ### 6. Generative AI in Software Development
 📂 [Part6-GenerativeAI](./Part6-GenerativeAI)
@@ -57,7 +57,7 @@ Course - 🎓 In Progress
 - Chat Bots
 
 ### 7. Application Development 
-📂 [Part7-Application-Development](./Part7-App-Development)
+📂 [Part7-Application-Development](./Part7-App-Development) ✅
 
 - Design Patterns, UML
 - Clean code
@@ -65,3 +65,5 @@ Course - 🎓 In Progress
 - Gitflow
 
 Each course includes multiple assignments, **graded labs**, and **final projects** to practice key skills.
+
+[Final Certificate](https://www.coursera.org/account/accomplishments/professional-cert/4JI9RU5LZLZ8)
